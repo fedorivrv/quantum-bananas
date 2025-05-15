@@ -1,11 +1,11 @@
 {
-  "name": "team-14",
+  "name": "quantum-bananas",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-14/",
+    "build": "vite build --base=/quantum-bananas/",
     "preview": "vite preview"
   },
   "devDependencies": {
