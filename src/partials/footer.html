@@ -1,94 +1,101 @@
 <footer class="footer">
   <div class="container">
-    <div class="form-wrapper">
-      <img
-        class="footer-logo"
-        src="/img/icons.svg#icon-logo"
-        alt="Logo"
-        width="84"
-        height="36"
-      />
-      <p class="text-subscribe">
-        Subscribe to our newsletter for the latest updates on our yoga courses
-        and events.
-      </p>
-      <form>
-        <label
-          ><input
-            class="input-mail"
-            type="email"
-            placeholder="Your email here"
-            required
-        /></label>
-        <button type="submit" class="submit-mail">Join</button>
+    <div class="form-links-wrapper">
+      <div class="form-wrapper">
+        <svg class="footer-logo" width="84" height="32">
+          <use href="/img/icons.svg#icon-logo"></use>
+        </svg>
+        <p class="text-subscribe">
+          Subscribe to our newsletter for the latest updates on our yoga courses
+          and events.
+        </p>
+        <form class="form-mail">
+          <label
+            ><input
+              class="input-mail"
+              type="email"
+              name="user_email"
+              placeholder="Your email here"
+              required
+          /></label>
+          <button type="submit" class="submit-mail">Join</button>
+        </form>
         <p class="text-policy">
           By subscribing, you consent to our Privacy Policy and agree to receive
           updates.
         </p>
-      </form>
-    </div>
-    <div class="links-wrapper">
-      <h2 class="visual-hidden"></h2>
-      <h3 class="footer-title">Quick Links</h3>
-      <ul class="footer-link-list">
-        <li class="footer-link-item">
-          <a class="footer-link" href="#yoga-programs">Yoga Classes</a>
-        </li>
-        <li class="footer-link-item">
-          <a class="footer-link" href="#team">Team</a>
-        </li>
-        <li class="footer-link-item">
-          <a class="footer-link" href="#price-plan">Pricing</a>
-        </li>
-        <li class="footer-link-item">
-          <a class="footer-link" href="#connect">Contacts</a>
-        </li>
-      </ul>
-      <h3 id="connect" class="footer-title">Connect With Us</h3>
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
-          <a class="footer-social-link"
-            ><img
-              class="footer-social-img"
-              src="/img/icons.svg#icon-facebook"
-              alt="Facebook"
-            />Facebook</a
-          >
-        </li>
-        <li class="footer-social-item">
-          <a class="footer-social-link"
-            ><img
-              class="footer-social-img"
-              src="/img/icons.svg#icon-instagram"
-              alt="Instagram"
-              width="32"
-              height="32"
-            />Instagram</a
-          >
-        </li>
-        <li class="footer-social-item">
-          <a class="footer-social-link"
-            ><img
-              class="footer-social-img"
-              src="/img/icons.svg#icon-linkedin"
-              alt="LinkedIn"
-              width="32"
-              height="32"
-            />LinkedIn</a
-          >
-        </li>
-        <li class="footer-social-item">
-          <a class="footer-social-link"
-            ><img
-              class="footer-social-img"
-              src="/img/icons.svg#icon-youtube"
-              width="32"
-              height="32"
-              alt="YouTube"
-            />YouTube</a
-          >
-        </li>
-      </ul>
+      </div>
+      <div class="links-wrapper">
+        <div class="footer-link-wrap">
+          <h2 hidden class="visually-hidden">Footer Links</h2>
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-link-list">
+            <li class="footer-link-item">
+              <a class="footer-link" href="#yoga-programs">Yoga Classes</a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="#team">Team</a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="#price-plan">Pricing</a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="#connect">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-link-wrap">
+          <h3 id="connect" class="footer-title">Connect With Us</h3>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a
+                class="footer-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="footer-social-img" width="24 " height="24">
+                  <use href="/img/icons.svg#icon-facebook"></use>
+                </svg>
+                Facebook</a
+              >
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="footer-social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="footer-social-img" width="24" height="24">
+                  <use href="/img/icons.svg#icon-instagram"></use></svg
+                >Instagram</a
+              >
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="footer-social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="footer-social-img linkedin" width="24" height="24">
+                  <use href="/img/icons.svg#icon-linkedin"></use></svg
+                >LinkedIn</a
+              >
+            </li>
+            <li class="footer-social-item">
+              <a
+                class="footer-social-link"
+                href="https://www.youtube.com/"
+                target="_blank"
+              >
+                <svg class="footer-social-img" width="24" height="24">
+                  <use href="/img/icons.svg#icon-youtube"></use>
+                </svg>
+                YouTube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <p class="footer-rights">© 2025 Yoga Studio. All rights reserved.</p>
   </div>
