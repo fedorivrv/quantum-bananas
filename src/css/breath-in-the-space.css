@@ -1,0 +1,80 @@
+/* section4 */
+
+.section-four {
+    padding: 64px 0;
+}
+
+.four-div {
+  max-width: 1344px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.h-four {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+}
+
+.p-four {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 48px; 
+}
+
+.ul-four {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.li-four {
+  flex: 0 1 calc((100% - 24px) / 2); 
+}
+
+.li-four img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+@media screen and (min-width:768px) {
+    .section-four {
+        padding: 40px 0;
+}
+    .h-four {
+        margin-bottom: 24px;
+    }
+    
+    .p-four {
+        margin-bottom: 80px; 
+    } 
+}
+
+@media screen and (min-width:1440px) {
+    .section-four {
+        padding: 112px 0;
+}
+    .h-four {
+        font-size: 52px;
+}
+    .p-four {
+        font-weight: 500;
+        margin-bottom: 80px; 
+}
+
+    .li-four {
+        flex: 0 1 calc((100% - 48px) / 3); /* 3 елементи в рядок (2 проміжки * 24px) */
+  }
+
+
+}
