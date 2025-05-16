@@ -1,0 +1,17 @@
+
+.testimonials-div {
+border-radius: 24px;
+padding: 12px;
+width: 343px;
+height: 496px;
+background-color:var(--color-hawkes-blue-lighter) ;
+}
+
+.testimonals-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--color-scheme-3-text);
+}
