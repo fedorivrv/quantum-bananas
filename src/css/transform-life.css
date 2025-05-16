@@ -1,0 +1,24 @@
+.main-banner {
+  background: var(--000000);
+  padding: 64px 0;
+  min-width: 320px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../img/yogo-mob-1x.webp);
+}
+
+@media (min-resolution: 2x) {
+  .main-banner {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      url(../img/yoga-mob-2x.webp);
+  }
+}
