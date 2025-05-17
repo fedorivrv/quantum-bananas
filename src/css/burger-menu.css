@@ -12,17 +12,15 @@
   justify-content: flex-start;
   gap: 286px;
   padding: 16px 16px;
-  margin-left: auto;
-  
-  z-index: 999; 
+  z-index: 999;
 }
 .mobile-menu.open {
-  transform: translateX(0);  
+  transform: translateX(0);
 }
-.burger-nav-list{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.burger-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .burger-nav-link {
   font-family: var(--font-family);
@@ -42,4 +40,17 @@
   display: block;
   width: 100%;
   max-width: 343px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    padding: 16px 32px;
+  }
+  .full-width {
+    max-width: 204px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .mobile-menu {
+    display: none;
+  }
 }
