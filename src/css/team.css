@@ -103,9 +103,17 @@
     display: flex;
     justify-content: center;
     gap: 14px;
-    fill: var(--color-scheme-4-text);
     flex-shrink: 0;
+    
 }
+.icon {
+    fill: transparent;
+    stroke: var(--color-scheme-4-text);
+}
+.icon-fl {
+    fill: var(--color-scheme-4-text);
+}
+
 .team-name-list {
 
     background: var(--color-scheme-3-background);
@@ -131,7 +139,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 736px) {
     .container {
         max-width: 768px;
         padding: 0 15px;
