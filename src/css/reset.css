@@ -23,7 +23,11 @@ button {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 img,svg {
+=======
+img, svg {
+>>>>>>> origin/main
   display: block;
   width: 100%;
   height: auto;

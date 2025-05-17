@@ -8,7 +8,11 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
+<<<<<<< HEAD
     max-width: 768px;    
+=======
+    max-width: 736px;    
+>>>>>>> origin/main
   }
 }
 /* Styles for Desktop devices */
