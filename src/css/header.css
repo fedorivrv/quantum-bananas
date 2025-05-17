@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #0D0B0A;
 }
 .header-link-button {
   border: 1px solid var(--color-hawkes-blue);
