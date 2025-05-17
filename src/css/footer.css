@@ -160,7 +160,7 @@
 @media (min-width: 1336px) {
   .links-wrapper {
     max-width: 371px;
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
 }
 
