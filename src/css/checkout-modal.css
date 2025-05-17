@@ -148,6 +148,7 @@
   color: var(--color-neutral-darkest);
   display: block;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 }
 
 .modal-btn:hover,
