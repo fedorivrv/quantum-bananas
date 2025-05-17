@@ -88,6 +88,7 @@
 @media (min-width: 768px) {
   .form-mail {
     flex-direction: row;
+    max-width: 640px;
     justify-content: space-between;
   }
 }
