@@ -39,6 +39,9 @@
 
 .li-four {
   flex: 0 1 calc((100% - 24px) / 2); 
+    
+
+
 }
 
 .li-four img {
@@ -58,6 +61,8 @@
     .p-four {
         margin-bottom: 80px; 
     } 
+
+    
 }
 
 @media screen and (min-width:1440px) {
@@ -76,5 +81,10 @@
         flex: 0 1 calc((100% - 48px) / 3); /* 3 елементи в рядок (2 проміжки * 24px) */
   }
 
+    .li-four img {
+        width: 421px;
+        height: 448px;       
+        max-width: 100%;
+    }
 
 }
