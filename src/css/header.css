@@ -25,12 +25,7 @@
   line-height: 160%;
   color: var(--color-neutral-darkest);
 }
-.header-icon-menu-container .is-open{
-  display: none;
-}
-.header-icon-close-container .is-open{
-  display: flex;
-}
+
 @media screen and (min-width: 1336px) {
   .header .container {
     padding-top: 15px;
