@@ -12,10 +12,12 @@
   justify-content: flex-start;
   gap: 286px;
   padding: 16px 16px;
+  margin-left: auto;
+  
   z-index: 999; 
 }
 .mobile-menu.open {
-  transform: translateX(0);
+  transform: translateX(0);  
 }
 .burger-nav-list{
     display: flex;
