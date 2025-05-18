@@ -22,12 +22,6 @@
   background-color: var(--thirdy-background-color);
 }
 
-@media (min-width: 768px) {
-  .footer .container {
-    padding: 40px 32px;
-  }
-}
-
 @media (min-width: 1336px) {
   .footer .container {
     padding: 48px;
@@ -56,9 +50,13 @@
   }
 }
 
+.footer-link-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .footer-logo {
   fill: var(---primary-color);
-  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -207,8 +205,7 @@
 }
 
 .footer-social-img {
-  fill: var(---primary-color);
-  flex-shrink: 0;
+  fill: var(--primary-color);
 }
 
 .linkedin {
