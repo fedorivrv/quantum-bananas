@@ -31,7 +31,7 @@
 }
 
 .li-four {
-  flex: 0 1 calc(50% - 12px);
+  flex: 0 1 calc(50% - 12px); /* мобілка + планшет — два в ряд */
 }
 
 .li-four img {
@@ -75,8 +75,8 @@
     }
 
     .li-four {
-        flex-basis: calc(33.333% - 16px); /* 3 в ряд, gap 24px (16px — це 2/3 від gap) */
-    }
+        flex: 0 1 calc(33.333% - 16px); /* десктоп — три в ряд */
+  }
     .li-four img {
         height: 448px;
     }
