@@ -29,13 +29,15 @@
 @media screen and (min-width: 1336px) {
   .header .container {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;    
+    justify-content: unset;
   }
   .header-icon-menu-container {
     display: none;
   }
   .header-nav {
     display: block;
+    margin-right: 161px;
   }
   .header-nav-list {
     display: flex;
@@ -71,5 +73,8 @@
   .header-link-button-container:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+  }
+  .header-logo-container{
+    margin-right: 509px;
   }
 }
