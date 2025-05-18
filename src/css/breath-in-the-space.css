@@ -53,6 +53,9 @@
 
     .p-four {
         margin-bottom: 80px;
+        max-width: 768px; 
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .li-four img {
