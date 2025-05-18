@@ -129,6 +129,13 @@
   background-color: rgba(13, 11, 10, 0.05);
   font-weight: 500;
   color: var(--primary-color);
+  transition: border 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.submit-mail:hover,
+.submit-mail:focus {
+  border: 1px solid var(--opacity-transparent);
+  background-color: rgba(13, 11, 10, 0.05);
 }
 
 @media (min-width: 768px) {
@@ -193,6 +200,16 @@
   font-size: 14px;
   padding: 8px 0;
   color: var(--primary-color);
+}
+
+.footer-link {
+  transition: 200ms ease-in;
+}
+.footer-link:hover,
+.footer-link:focus,
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: #747bff;
 }
 
 .footer-social-link {
