@@ -1,3 +1,16 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .footer {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -22,11 +35,20 @@
   background-color: var(--thirdy-background-color);
 }
 
+@media (min-width: 768px) {
+  .footer-wrapper {
+    max-width: 704px;
+    padding: 40px 32px;
+  }
+}
+
 @media (min-width: 1336px) {
-  .footer .container {
+  .footer-wrapper {
+    max-width: 1312px;
     padding: 48px;
   }
 }
+
 @media (min-width: 1336px) {
   .form-links-wrapper {
     display: flex;
