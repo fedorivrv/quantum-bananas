@@ -10,7 +10,7 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #000;
   margin-bottom: 48px;
-  maxgit-width: 375px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 }
