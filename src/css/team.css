@@ -4,184 +4,135 @@
     justify-content: center;
     flex-direction: column;
     gap: 48px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 
     padding-top: 64px;
     padding-bottom: 64px;
     width: 100%;
-    margin: 0 auto;
-
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
     background: var(--color-scheme-3-background);
+    font-family: var(--second-family);
+    color: var(--color-scheme-4-text);
 }
 
 .title {
     margin-bottom: 48px;
+    text-align: center;
 }
-
+.meet {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
 .our-team {
-    font-family: var(--second-family);
     font-weight: 400;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    text-align: center;
-    color: var(--color-scheme-4-text);
     margin-bottom: 20px;
-
 }
-
-.meet {
-
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    color: var(--color-scheme-4-text);
-    margin-bottom: 12px;
-}
-
 .team-description {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
-    color: var(--color-scheme-4-text);
 }
-
+.team-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 48px;
+    list-style: none;
+}
+.team-name-list {
+    background: var(--color-scheme-3-background);
+    margin-bottom: 48px;
+}
 .team-image {
-    border-radius: 16px;
-    margin: 0 auto;
-
     max-width: 343px;
     height: 221px;
-    overflow: hidden;
-
-    width: 100%;
-    /* height: 100%; */
-    object-fit: cover;
+    /* overflow: hidden; */
+    object-fit: contain;
+}
+.team-box {
+    text-align: center;
 }
 
 .team-name-job {
     margin-bottom: 20px;
-
 }
 
 .team-box-name {
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
     line-height: 1.6;
-    text-align: center;
-    color: var(--color-scheme-4-text);
-}
-
-.team-box {
     padding-top: 20px;
     padding-bottom: 10px;
-
 }
-
 .team-job-title {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
-    color: var(--color-scheme-4-text);
     margin-bottom: 12px;
 }
-
 .team-about-instructor {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
-    color: var(--color-scheme-4-text);
-    margin-bottom: 20px;
 }
-
-
+.social-icon-item {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-direction: row;
+    gap: 14px;
+}
 .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-
-
 }
-
-.social-icon-item {
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-    flex-shrink: 0;
-
-}
-
 .icon {
     fill: transparent;
     stroke: var(--color-scheme-4-text);
-    stroke-width: 2.2;
+    stroke-width: 2;
     transform: scale(1.25);
 }
 
 .icon-fl {
     fill: var(--color-scheme-4-text);
-
 }
 
 .icon-facebook {
     transform: scale(1.25);
 }
 
-.team-name-list {
-
-    background: var(--color-scheme-3-background);
-    /* margin-bottom: 24px; */
-    /* width: 100%;
-    max-width: 100%;
-    box-sizing: border-box; */
-}
-
-.team-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 0;
-    gap: 48px;
-    /* margin: 0; */
-    list-style: none;
-}
-
-
-
 @media screen and (min-width: 768px) {
-
     .team {
         padding-top: 40px;
     }
-
     .team-card {
         gap: 24px;
     }
-
-
+    .team-image {
+        max-width: 340px;
+        height: 395px;
+        margin-bottom: 24px;
+    }
     .team-name-list {
         width: calc((100% - 24px) / 2);
     }
-
-
 }
 
 @media screen and (min-width: 1336px) {
-
     .team {
         padding-top: 112px;
     }
+        .team-image {
+            max-width: 421px;
+            height: 398px;
+        }
 
     .team-name-list {
         width: calc((100% - 48px) / 3);
