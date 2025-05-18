@@ -17,6 +17,7 @@
 .title {
     margin-bottom: 48px;
     text-align: center;
+    display: block;
 }
 .meet {
     font-weight: 600;
@@ -47,21 +48,20 @@
 .team-name-list {
     background: var(--color-scheme-3-background);
     margin-bottom: 48px;
+    width: 100%;
+    max-width: none;
 }
 .team-image {
-    max-width: 343px;
+    width: 343px;
     height: 221px;
-    /* overflow: hidden; */
     object-fit: contain;
 }
 .team-box {
     text-align: center;
 }
-
 .team-name-job {
     margin-bottom: 20px;
 }
-
 .team-box-name {
     font-weight: 600;
     font-size: 18px;
@@ -99,29 +99,30 @@
     stroke-width: 2;
     transform: scale(1.25);
 }
-
 .icon-fl {
     fill: var(--color-scheme-4-text);
 }
-
 .icon-facebook {
     transform: scale(1.25);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px ) {
     .team {
         padding-top: 40px;
     }
+    .team-description {
+        text-align: center;
+    }
     .team-card {
         gap: 24px;
+    }
+        .team-name-list {
+        width: calc((100% - 24px) / 2);
     }
     .team-image {
         max-width: 340px;
         height: 395px;
         margin-bottom: 24px;
-    }
-    .team-name-list {
-        width: calc((100% - 24px) / 2);
     }
 }
 
@@ -129,13 +130,14 @@
     .team {
         padding-top: 112px;
     }
-        .team-image {
-            max-width: 421px;
-            height: 398px;
-        }
-
+    .team-card {
+        max-width: 1312px;
+    }
+    .team-image {
+        max-width: 421px;
+        height: 398px;
+    }
     .team-name-list {
         width: calc((100% - 48px) / 3);
     }
-
-}
+}    
