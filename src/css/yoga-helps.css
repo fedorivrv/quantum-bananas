@@ -1,0 +1,135 @@
+.yoga-helps {
+    background-color: var(--color-scheme-1-background);
+    padding: 64px 16px;
+}
+
+.yoga-help-box {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+}
+
+.yoga-help-title {
+    font-family: var(--second-family);
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}
+
+.yoga-help-text {
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.about-yoga-list-cont {
+    margin-bottom: 48px;
+}
+
+.about-yoga-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.about-yoga-element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-yoga-element-title {
+    font-size: 24px;
+    font-family: var(--second-family);
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.nav-pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: var(--color-neutral-darkest);
+    border: 1px solid var(--color-hawkes-blue);
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+    background-color: var(--color-hawkes-blue);
+}
+
+.join-text::after {
+    content: "";
+}
+
+@media screen and (min-width: 768px) {
+    
+    .yoga-helps {
+        background-color: transparent;
+        padding: 40px 32px;
+    }
+
+    .yoga-help-text {
+        font-size: 18px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+}
+
+    .yoga-help-tt {
+        padding-top: 40px;
+}
+
+.about-yoga-list-cont {
+    margin-top: 40px;
+}
+
+.about-yoga-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.about-yoga-item{
+    max-width: 340px;
+}
+
+.about-yoga-list .about-yoga-item {
+    width: calc((100% - 24px) / 2);
+}
+
+.mobile-text {
+    display: none;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pricing {
+        width: auto;
+        white-space: nowrap;
+}
+
+.join-text::after {
+    content: " now";
+}
+
+}
+
+@media screen and (min-width: 1336px) {
+
+
+
+
+    
+}
