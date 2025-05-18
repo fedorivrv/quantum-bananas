@@ -1,12 +1,15 @@
 .yoga-helps {
     background-color: var(--color-scheme-1-background);
-    padding: 64px 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .yoga-help-box {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     width: 100%;
     margin: 0 auto;
     line-height: 1.6;
@@ -49,6 +52,7 @@
     text-align: center;
 }
 
+
 .nav-pricing {
     display: flex;
     align-items: center;
@@ -58,7 +62,8 @@
     border: 1px solid var(--color-hawkes-blue);
     border-radius: 100px;
     padding: 10px 24px;
-    width: 343px;
+    max-width: 343px;
+    width: 100%;
     height: 46px;
     background-color: var(--color-hawkes-blue);
 }
@@ -71,7 +76,13 @@
     
     .yoga-helps {
         background-color: var(--color-scheme-3-background);
-        padding: 80px 32px 40px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .yoga-help-box {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .yoga-help-text {
@@ -133,9 +144,14 @@
 @media screen and (min-width: 1336px) {
 
     .yoga-helps {
-        padding: 112px 64px;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
 
+    .yoga-help-box {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
 
     .yoga-help-title {
         font-size: 52px;
