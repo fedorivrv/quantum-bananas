@@ -1,9 +1,9 @@
 .burger-menu {
   position: fixed;
-  top: 64px;
+  top: 65px;
   left: 0;
   width: 100%;
-  height: calc(100vh - 64px);
+  height: calc(100vh - 65px);
   background-color: #fff;
   opacity: 0;
   visibility: hidden;

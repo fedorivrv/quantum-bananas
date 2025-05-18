@@ -2,8 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14px;
-  padding-bottom: 14px;
 }
 .header-nav {
   display: none;
@@ -14,7 +12,12 @@
   justify-content: center;
   fill: #0d0b0a;
 }
+.header-link-button-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .header-link-button {
+  display: block;
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   padding: 4px 20px;
@@ -27,9 +30,7 @@
 }
 
 @media screen and (min-width: 1336px) {
-  .header .container {
-    padding-top: 15px;
-    padding-bottom: 15px;    
+  .header .container {   
     justify-content: unset;
   }
   .header-icon-menu-container {
@@ -74,7 +75,7 @@
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
   }
-  .header-logo-container{
+  .header-logo-container {
     margin-right: 509px;
   }
 }
