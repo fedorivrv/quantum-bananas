@@ -10,6 +10,6 @@ menuIcon.addEventListener('click', () => {
 
   useElement.setAttribute(
     'href',
-    isMenuOpen ? '../img/icons.svg#icon-close' : '../img/icons.svg#icon-menu'
+    isMenuOpen ? '/img/icons.svg#icon-close' : '/img/icons.svg#icon-menu'
   );
 });
