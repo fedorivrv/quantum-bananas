@@ -1,16 +1,23 @@
 /* transform-life */
 .main-banner {
-  padding: 64px 0;
   min-width: 320px;
   background-color: var(--background-color);
+
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .banner {
-  background-position: center;
-  min-width: 320px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #000;
   margin-bottom: 48px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-img {
 }
 
 .main-banner-title {
@@ -27,11 +34,12 @@
   margin-bottom: 24px;
 }
 
-.main-text-button {
+.button-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 48px;
 }
 
 .button-join,

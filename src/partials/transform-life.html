@@ -1,15 +1,14 @@
 <!-- #region transform-life -->
 <section class="main-banner">
+    <div class="banner">
+        <picture class="banner-img">
+            <source srcset="../img/yoga-1x.webp, ../img/yoga 2x.webp" media="(min-width: 1158px)" />
+            <source srcset="../img/yoga-tab-1x.webp, ../img/yoga-tab-2x.webp" media="(min-width: 768px)" />
+            <source srcset="../img/yoga-mob-1x.webp, ../img/yoga-mob-2x.webp" media="(max-width: 767px)" />
+            <img src="../img/yoga-mob-1x.webp" alt="Жінка займається хатха-йогою асана низький півмісяць" />
+        </picture>
+    </div>
     <div class="container">
-        <div class="banner">
-            <picture>
-                <source srcset="../img/yoga-1x.webp, ../img/yoga 2x.webp" media="(min-width: 1158px)" />
-                <source srcset="../img/yoga-tab-1x.webp, ../img/yoga-tab-2x.webp" media="(min-width: 768px)" />
-                <source srcset="../img/yoga-mob-1x.webp, ../img/yoga-mob-2x.webp" media="(max-width: 767px)" />
-                <img src="../img/yoga-mob-1x.webp" alt="Жінка займається хатха-йогою асана низький півмісяць" />
-            </picture>
-        </div>
-
         <h1 class="main-banner-title">Transform Your Life with Our Yoga Clases</h1>
         <div class="main-text-button">
             <p class="main-banner-text">
@@ -17,9 +16,12 @@
                 dedicated to
                 wellness and personal growth.
             </p>
-
-            <button type="button" class="button-join">Join</button>
-            <button type="button" class="button-learn">Learn More</button>
+            <div class="main-button-list">
+                <ul class="button-list">
+                    <li class="button-box"><button type="button" class="button-join">Join</button></li>
+                    <li><button type="button" class="button-learn">Learn More</button></li>
+                </ul>
+            </div>
         </div>
 
     </div>
