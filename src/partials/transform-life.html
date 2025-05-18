@@ -2,10 +2,11 @@
 <section class="main-banner">
     <div class="banner">
         <picture class="banner-img">
-            <source srcset="../img/yoga-1x.webp, ../img/yoga 2x.webp" media="(min-width: 1158px)" />
-            <source srcset="../img/yoga-tab-1x.webp, ../img/yoga-tab-2x.webp" media="(min-width: 768px)" />
+            <source srcset="../img/yoga-1x.webp, ../img/yoga 2x.webp" media="min-width: 1158px" />
+            <source srcset="../img/yoga-tab-1x.webp, ../img/yoga-tab-2x.webp" media="(max-width: 768px)" />
             <source srcset="../img/yoga-mob-1x.webp, ../img/yoga-mob-2x.webp" media="(max-width: 767px)" />
             <img src="../img/yoga-mob-1x.webp" alt="Жінка займається хатха-йогою асана низький півмісяць" />
+
         </picture>
     </div>
     <div class="container">
@@ -18,8 +19,10 @@
             </p>
             <div class="main-button-list">
                 <ul class="button-list">
-                    <li class="button-box"><button type="button" class="button-join">Join</button></li>
-                    <li><button type="button" class="button-learn">Learn More</button></li>
+                    <li class="button-box">
+                        <a href="#Pricing" class="button-join">Join</a>
+                    </li>
+                    <li class="button-box"><a href="#Learn More" class="button-learn">Learn More</a></li>
                 </ul>
             </div>
         </div>
