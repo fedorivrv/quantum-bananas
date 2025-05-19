@@ -41,6 +41,35 @@
     object-fit: cover;
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .container.four-div {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .h-four {
+    font-size: calc(28px + (12 * ((100vw - 320px) / 50))); /* від 28px до 40px */
+    margin-bottom: 16px;
+  }
+  .p-four {
+    font-size: calc(14px + (4 * ((100vw - 320px) / 50))); /* від 14px до 18px */
+    margin-bottom: 28px;
+  }
+  .ul-four {
+    gap: 12px;
+  }
+  .li-four {
+    flex: 0 1 100%;
+    margin-bottom: 0;
+  }
+  .li-four img {
+    height: 28vw; /* адаптивна висота */
+    min-height: 90px;
+    max-height: 130px;
+    border-radius: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
 
     .section-four {
