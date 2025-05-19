@@ -51,11 +51,6 @@
     width: 100%;
     max-width: none;
 }
-/* .team-image {
-    width: 343px;
-    height: 221px;
-    object-fit: contain;
-} */
 .team-box {
     text-align: center;
 }
@@ -157,6 +152,6 @@
         width: calc((100% - 48px) / 3);
     }
     .team-card {
-        gap: 64px;
+        gap: 64px 24px;
     }
 }    
