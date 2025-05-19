@@ -51,11 +51,11 @@
     width: 100%;
     max-width: none;
 }
-.team-image {
+/* .team-image {
     width: 343px;
     height: 221px;
     object-fit: contain;
-}
+} */
 .team-box {
     text-align: center;
 }
@@ -67,7 +67,7 @@
     font-size: 18px;
     line-height: 1.6;
     padding-top: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .team-job-title {
     font-weight: 400;
@@ -110,13 +110,22 @@
     .team {
         padding-top: 40px;
     }
+    .meet {
+        margin-bottom: 16px;
+    }
+    .our-team {
+        margin-bottom: 24px;
+    }
     .team-description {
         text-align: center;
+    }
+    .title {
+        margin-bottom: 40px;
     }
     .team-card {
         gap: 24px;
     }
-        .team-name-list {
+    .team-name-list {
         width: calc((100% - 24px) / 2);
     }
     .team-image {
@@ -124,11 +133,18 @@
         height: 395px;
         margin-bottom: 24px;
     }
+    .team-job-title {
+        margin-bottom: 16px;
+    }
+    .team-name-job {
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (min-width: 1336px) {
     .team {
         padding-top: 112px;
+        padding-bottom: 112px;
     }
     .team-card {
         max-width: 1312px;
@@ -139,5 +155,8 @@
     }
     .team-name-list {
         width: calc((100% - 48px) / 3);
+    }
+    .team-card {
+        gap: 64px;
     }
 }    
