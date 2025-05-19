@@ -12,8 +12,7 @@
 }
 
 .footer {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding: 48px 16px;
   background-color: var(--secondary-background-color);
 }
 
@@ -32,6 +31,7 @@
 .footer-wrapper {
   border-radius: 16px;
   padding: 32px;
+  min-width: 288px;
   background-color: var(--thirdy-background-color);
 }
 
@@ -44,7 +44,7 @@
 
 @media (min-width: 1336px) {
   .footer-wrapper {
-    max-width: 1312px;
+    max-width: 1240px;
     padding: 48px;
   }
 }
@@ -116,7 +116,6 @@
   .form-mail {
     flex-direction: row;
     max-width: 640px;
-    justify-content: space-between;
   }
 }
 
@@ -139,7 +138,7 @@
 
 @media (min-width: 768px) {
   .input-mail {
-    min-width: 486px;
+    min-width: 546px;
   }
 }
 
