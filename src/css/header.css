@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.header-icon-menu-container {
+  border: none;
+  background-color: var(--color-hawkes-blue-lightest);
+}
 .header-nav {
   display: none;
 }

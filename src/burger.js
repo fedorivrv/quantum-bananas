@@ -4,7 +4,9 @@ export const mobileMenu = document.getElementById('mobileMenu');
 
 menuIcon.addEventListener('click', () => {
   mobileMenu.classList.toggle('open');
+  document.body.classList.toggle('lock-scroll');
 
+  
   const currentIcon = useElement.getAttribute('href');
   const isMenuOpen = currentIcon.includes('icon-menu');
 
