@@ -1,0 +1,197 @@
+.yoga-programs {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.yoga-programs-desc {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 12px;
+}
+
+.yoga-programs-main-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 20px;
+}
+
+.yoga-programs-main-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 48px;
+}
+
+.yoga-programs-list {
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width:767px) {
+  .yoga-programs-item:not(:last-child) {
+    margin-bottom: 48px;
+  }
+
+  .yoga-programs {
+    background: var(--color-scheme-1-background);
+  }
+}
+
+.yoga-programs-img {
+  margin-bottom: 24px;
+}
+
+.yoga-programs-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--color-scheme-1-text);
+  margin-bottom: 20px;
+}
+
+.yoga-programs-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--color-scheme-1-text);
+}
+
+.yoga-programs-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 343px;
+  height: 46px;
+  background: var(--color-hawkes-blue);
+  transition: background 250ms ease-in-out;
+}
+
+.yoga-programs-btn:hover,
+.yoga-programs-btn:focus {
+  background: var(--opacity-neutral-darkest-5);
+}
+
+@media screen and (max-width: 374px) {
+  .yoga-programs-btn {
+    width: 100%;
+  }
+
+  .yoga-programs-container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-programs-btn-mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .yoga-programs-btn-main {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1335px) {
+  .yoga-programs-item:not(:last-child) {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .yoga-programs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .yoga-programs-desc {
+    margin-bottom: 16px;
+  }
+
+  .yoga-programs-main-title {
+    margin-bottom: 24px;
+  }
+
+  .yoga-programs-main-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .yoga-programs-list {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px 24px;
+  }
+
+  .yoga-programs-img {
+    margin-bottom: 16px;
+  }
+
+  .yoga-programs-title {
+    margin-bottom: 0;
+  }
+
+  .yoga-programs-btn-main {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .yoga-programs {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .yoga-programs-main-title {
+    font-size: 52px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .yoga-programs-main-text {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .yoga-programs-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .yoga-programs-img {
+    margin-bottom: 32px;
+  }
+
+  .yoga-programs-title {
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+
+  .yoga-programs-btn-main {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
