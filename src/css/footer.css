@@ -25,7 +25,7 @@
 
 @media (min-width: 1336px) {
   .footer {
-    padding: 64x;
+    padding: 64px;
   }
 }
 
@@ -68,6 +68,7 @@
 
 @media (min-width: 1336px) {
   .form-wrapper {
+    margin-bottom: 24px;
     max-width: 595px;
   }
 }
@@ -75,6 +76,12 @@
 .footer-link-logo {
   display: block;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer-link-logo {
+    margin-bottom: 24px;
+  }
 }
 
 .footer-logo {
@@ -208,10 +215,16 @@
   margin-bottom: 12px;
 }
 
+@media (min-width: 1336px) {
+  .footer-title {
+    margin-bottom: 16px;
+  }
+}
+
 .footer-link-list {
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 @media (min-width: 768px) {
   .footer-link-list {
