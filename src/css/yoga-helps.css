@@ -107,6 +107,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 24px;
+    row-gap: 46.5px;
     justify-content: center;
     align-items: baseline;
 }
