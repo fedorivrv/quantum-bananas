@@ -91,16 +91,8 @@
     justify-content: center;
     flex-direction: row;
 }
-.icon {
-    fill: transparent;
-    stroke: var(--color-scheme-4-text);
-    stroke-width: 2;
-    transform: scale(1.25);
-}
 
-.icon-fl {
-    fill: var(--color-scheme-4-text);
-}
+
 .icon-facebook {
     transform: scale(1.25);
 }
