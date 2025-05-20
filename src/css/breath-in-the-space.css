@@ -42,31 +42,22 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 370px) {
-  .container.four-div {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
   .h-four {
-    font-size: calc(28px + (12 * ((100vw - 320px) / 50))); /* від 28px до 40px */
     margin-bottom: 16px;
   }
   .p-four {
-    font-size: calc(14px + (4 * ((100vw - 320px) / 50))); /* від 14px до 18px */
     margin-bottom: 28px;
   }
   .ul-four {
-    gap: 12px;
+    gap: 10px;
   }
   .li-four {
-    flex: 0 1 100%;
     margin-bottom: 0;
   }
-  .li-four img {
-    height: 28vw; /* адаптивна висота */
-    min-height: 90px;
-    max-height: 130px;
-    border-radius: 12px;
+  .li-four  {
+    width: calc((100% - 10px) / 2);
   }
 }
 
@@ -103,9 +94,7 @@
         font-weight: 500;
     }
 
-    .li-four {
-        flex: 0 1 calc(33.333% - 16px); /* десктоп — три в ряд */
-  }
+    
     .li-four img {
         height: 448px;
     }
