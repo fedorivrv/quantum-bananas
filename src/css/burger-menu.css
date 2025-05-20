@@ -5,7 +5,7 @@
 }
 .burger-menu {
   position: fixed;
-  top: 64px;
+  top: 63px;
   left: 0;
   width: 100%;
   height: calc(100% - 65px);
