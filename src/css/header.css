@@ -21,18 +21,18 @@
 
   width: 16px;
   height: 2px;
-  background-color: var(--color-scheme-3-text);;
+  background-color: var(--color-scheme-3-text);
   transition: background-color 250ms, transform 250ms;
 }
 
 .burger-icon::before,
 .burger-icon::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 16px;
   height: 2px;
-  background-color: var(--color-scheme-3-text);;
+  background-color: var(--color-scheme-3-text);
   transition: transform 250ms, top 250ms, width 250ms;
 }
 
@@ -122,13 +122,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .header-nav-list li:hover, 
-     .header-nav-list li:focus {
+  .header-nav-list li:hover,
+  .header-nav-list li:focus {
     transform: scale(1.01);
     transition: transform 0.3s ease-in-out;
   }
 
-   
   .current {
     position: relative;
     display: inline-block;
@@ -140,21 +139,20 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: 11px;
     width: 100%;
     height: 2px;
     background-color: var(--color-scheme-3-text);
   }
-  .header-link-button-container:hover, .header-link-button-container:focus {
+  .header-link-button-container:hover,
+  .header-link-button-container:focus {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
-     
   }
-    .header-link-button:hover,
-    .header-link-button:focus {
-      background: var(--opacity-neutral-darkest-5);
-
-    }
+  .header-link-button:hover,
+  .header-link-button:focus {
+    background: var(--opacity-neutral-darkest-5);
+  }
   .header-logo-container {
     margin-right: 509px;
   }
