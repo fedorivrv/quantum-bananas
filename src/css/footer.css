@@ -22,13 +22,15 @@
 
 @media (min-width: 768px) {
   .footer-container {
-    padding: 40px 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
 @media (min-width: 1336px) {
   .footer-container {
-    padding: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
 
@@ -48,7 +50,7 @@
 
 @media (min-width: 1336px) {
   .footer-wrapper {
-    max-width: 1240px;
+    max-width: 1312px;
     padding: 48px;
   }
 }
