@@ -1,3 +1,46 @@
-<div class="checkout-modal-container">
-    
+<div class="checkout-modal" data-modal>
+  <div class="modal">
+    <button class="modal-close" type="button" data-modal-close>
+      <svg class="modal-close-icon" width="14" height="14">
+        <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+
+    <h2 class="modal-title">Join Now!</h2>
+    <div class="modal-wrapper">
+      <h3 class="modal-wrapper-title">One Session</h3>
+      <p class="modal-wrapper-text">$10</p>
+    </div>
+    <div class="modal-wrapper none">
+      <h3 class="modal-wrapper-title">8 Sessions Package</h3>
+      <p class="modal-wrapper-text">$65</p>
+    </div>
+    <div class="modal-wrapper none">
+      <h3 class="modal-wrapper-title">12 Sessions Package</h3>
+      <p class="modal-wrapper-text">$80</p>
+    </div>
+    <form class="form-modal">
+      <div class="modal-item">
+        <label for="user-name" class="modal-label">Your Name</label>
+        <div class="modal-block">
+          <input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Liam">
+        </div>
+      </div>
+      <div class="modal-form-wrapper">
+        <div class="modal-item">
+          <label for="email" class="modal-label">Email</label>
+          <div class="modal-block">
+            <input class="modal-input" type="email" name="email" id="email" placeholder="hello@yogabloom.com">
+          </div>
+          </div>
+          <div class="modal-item">
+            <label for="phone" class="modal-label">Phone number</label>
+            <div class="modal-block">
+              <input class="modal-input" type="tel" name="phone" id="phone" placeholder="+380 (95) 123 12 12">
+            </div>
+            </div>
+      </div>
+      <button type="submit" class="modal-btn price-btn">Go to checkout</button>
+    </form>
+  </div>
 </div>

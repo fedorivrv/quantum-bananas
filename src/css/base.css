@@ -70,5 +70,8 @@
 }
 
 body {
-  background-color: var(--color-scheme-3-background);
+  background-color: var(--color-hawkes-blue-lightest);
+}
+body.lock-scroll {
+  overflow: hidden;
 }
