@@ -12,7 +12,7 @@
 }
 
 .footer {
-  background-color: var(--secondary-background-color);
+  background-color: var(--color-scheme-1-background);
 }
 
 .footer-container {
@@ -36,7 +36,7 @@
   border-radius: 16px;
   padding: 32px;
   min-width: 288px;
-  background-color: var(--thirdy-background-color);
+  background-color: var(--color-scheme-1-foreground);
 }
 
 @media (min-width: 768px) {
