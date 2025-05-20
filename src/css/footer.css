@@ -12,19 +12,22 @@
 }
 
 .footer {
-  padding-top: 48px;
-  padding-bottom: 48px;
   background-color: var(--secondary-background-color);
 }
 
+.footer-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
 @media (min-width: 768px) {
-  .footer {
+  .footer-container {
     padding: 40px 32px;
   }
 }
 
 @media (min-width: 1336px) {
-  .footer {
+  .footer-container {
     padding: 64px;
   }
 }
