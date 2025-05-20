@@ -50,7 +50,7 @@
 
 @media (min-width: 1336px) {
   .footer-wrapper {
-    max-width: 1240px;
+    max-width: 1312px;
     padding: 48px;
   }
 }
@@ -221,7 +221,7 @@
 }
 
 @media (min-width: 1336px) {
-  .footer-link-wrap:first-child {
+  .footer-link-wrap {
     width: 165px;
   }
 }
