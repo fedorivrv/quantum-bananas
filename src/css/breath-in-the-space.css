@@ -1,0 +1,112 @@
+.section-four {
+    padding: 48px 0;
+}
+
+.h-four {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+
+    margin-bottom: 20px;
+}
+
+.p-four {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+
+    margin-bottom: 48px;
+}
+
+.ul-four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.li-four {
+  flex: 0 1 calc(50% - 12px); /* мобілка + планшет — два в ряд */
+}
+
+.li-four img {
+    width: 100%;
+    height: 155px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .container.four-div {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .h-four {
+    font-size: calc(28px + (12 * ((100vw - 320px) / 50))); /* від 28px до 40px */
+    margin-bottom: 16px;
+  }
+  .p-four {
+    font-size: calc(14px + (4 * ((100vw - 320px) / 50))); /* від 14px до 18px */
+    margin-bottom: 28px;
+  }
+  .ul-four {
+    gap: 12px;
+  }
+  .li-four {
+    flex: 0 1 100%;
+    margin-bottom: 0;
+  }
+  .li-four img {
+    height: 28vw; /* адаптивна висота */
+    min-height: 90px;
+    max-height: 130px;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+    .section-four {
+        padding: 40px 0;
+    }
+
+    .h-four {
+        margin-bottom: 24px;
+    }
+
+    .p-four {
+        margin-bottom: 80px;
+        max-width: 768px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .li-four img {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width:1336px) {
+    .section-four {
+        padding: 112px 0;
+}
+    .h-four {
+        font-size: 52px;
+}
+    .p-four {
+        font-weight: 500;
+    }
+
+    .li-four {
+        flex: 0 1 calc(33.333% - 16px); /* десктоп — три в ряд */
+  }
+    .li-four img {
+        height: 448px;
+    }
+}
