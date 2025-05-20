@@ -33,6 +33,8 @@
 }
 
 .footer-wrapper {
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 16px;
   padding: 32px;
   min-width: 288px;
