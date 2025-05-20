@@ -19,15 +19,13 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/quantum-bananas/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/quantum-bananas/assets/index-D_tQRwq1.css">
+    <link rel="stylesheet" crossorigin href="/quantum-bananas/assets/index-UmRRcb_b.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <button class="header-icon-menu-container">
-      <svg class="header-icon-menu" width="24" height="24" id="menu-icon">
-        <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-menu"></use>
-      </svg>
+    <button class="burger-btn" type="button" data-menu-toggle>
+      <span class="burger-icon"></span>
     </button>
     <nav class="header-nav">
       <ul class="header-nav-list">
@@ -41,7 +39,7 @@
       </ul>
     </nav>
     <div class="header-logo-container">
-      <a href="https://fedorivrv.github.io/quantum-bananas">
+      <a href="/index.html">
         <svg class="header-icon-logo" width="84" height="36">
           <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-logo"></use>
         </svg>
@@ -53,7 +51,7 @@
   </div>
 </header>
 
-    <div class="burger-menu" id="mobileMenu">
+    <div class="burger-menu"  data-menu>
   <div class="burger-menu-container container">
     <nav class="burger-menu-nav">
       <ul class="burger-nav-list">
@@ -76,36 +74,51 @@
     <main>
       <!-- Loads the specified .html file -->
       <section class="main-banner">
-    <div class="banner">
-        <picture>
-            <source srcset="../img/yoga.webp 1x, ../img/yoga-@2x.webp 2x" media="(min-width: 1336px)" />
-            <source srcset="../img/yoga-tab.webp 1x, ../img/yoga-tab-@2x.webp 2x" media="(min-width: 768px)" />
-            <source srcset="../img/yoga-mob.webp 1x, ../img/yoga-mob-@2x.webp 2x" media="(max-width: 767px)" />
-            <img src="../img/yoga-mob.webp" alt="Жінка займається хатха-йогою асана низький півмісяць" />
-        </picture>
-    </div>
-    <div class="container banner-part">
+
+  <div class="banner">
+    <picture>
+      <source
+        srcset="/quantum-bananas/assets/yoga-DXryfsEZ.webp 1x, /quantum-bananas/assets/yoga-@2x-6oAJm1XP.webp 2x"
+        media="(min-width: 1336px)"
+      />
+      <source
+        srcset="/quantum-bananas/assets/yoga-tab-D_u6PnPc.webp 1x, /quantum-bananas/assets/yoga-tab-@2x-BhRnL_9W.webp 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/quantum-bananas/assets/yoga-mob-BLP25aLN.webp 1x, /quantum-bananas/assets/yoga-mob-@2x-CY9Ca-Z1.webp 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="/quantum-bananas/assets/yoga-mob-BLP25aLN.webp"
+        alt="yoga"
+      />
+    </picture>
+  </div>
+  
+      <div class="container banner-part">
         <h1 class="main-banner-title">Transform Your Life with Our Yoga Clases</h1>
         <div class="main-text-button">
-            <p class="main-banner-text">
-                Discover the harmony of mind and body through our expertly designed yoga programs. Join a community
-                dedicated to
-                wellness and personal growth.
-            </p>
-            <div class="main-button-list">
-                <ul class="button-list">
-                    <li class="button-box">
-                        <a href="#Pricing" class="button-join">Join</a>
-                    </li>
-                    <li class="button-box"><a href="#Learn More" class="button-learn">Learn More</a></li>
-                </ul>
-            </div>
+          <p class="main-banner-text">
+            Discover the harmony of mind and body through our expertly designed yoga programs. Join a community
+            dedicated to
+            wellness and personal growth.
+          </p>
+          <div class="main-button-list">
+            <ul class="button-list">
+              <li class="button-box">
+                <a href="#pricing" class="button-join">Join</a>
+              </li>
+              <li class="button-box"><a href="#gallery" class="button-learn">Learn More</a></li>
+            </ul>
+          </div>
         </div>
+
     </div>
+  
 </section>
 
-
-      <section class="yoga-programs">
+      <section class="yoga-programs" id="yoga-programs">
     <div class="container yoga-programs-container">
         <p class="yoga-programs-desc">Explore</p>
         <h2 class="yoga-programs-main-title">Discover Our Most Popular Yoga Programs</h2>
@@ -115,10 +128,10 @@
         <ul class="yoga-programs-list">
             <li class="yoga-programs-item">
                 <picture>
-                    <source srcset="../img/yoga-programs/desktop/beginer-yoga.png 1x, ../img/yoga-programs/desktop/beginer-yoga2x.png 2x" media="(min-width: 1336px)" />
-                    <source srcset="../img/yoga-programs/tablet/beginer-yoga.png 1x, ../img/yoga-programs/tablet/beginer-yoga2x.png 2x" media="(min-width: 768px)" />
-                    <source srcset="../img/yoga-programs/mobile/beginer-yoga.png 1x, ../img/yoga-programs/mobile/beginer-yoge2x.png 2x" media="(max-width: 767px)" />
-                    <img class="yoga-programs-img" src="../img/yoga-programs/mobile/beginer-yoga.png"
+                    <source srcset="/quantum-bananas/assets/beginer-yoga-CQ5BxxKO.png 1x, /quantum-bananas/assets/beginer-yoga2x-CkUtnZeg.png 2x" media="(min-width: 1336px)" />
+                    <source srcset="/quantum-bananas/assets/beginer-yoga-Cbn43Wxx.png 1x, /quantum-bananas/assets/beginer-yoga2x-DTBYl76e.png 2x" media="(min-width: 768px)" />
+                    <source srcset="../img/yoga-programs/mobile/beginer-yoga.png 1x, /quantum-bananas/assets/beginer-yoge2x-CV9R4ESy.png 2x" media="(max-width: 767px)" />
+                    <img class="yoga-programs-img" src="/quantum-bananas/assets/beginer-yoga-C68JSQ0d.png"
                         alt="Yoga-programs" />
                 </picture>
                 <h3 class="yoga-programs-title">Beginner Yoga: Foundations</h3>
@@ -126,10 +139,10 @@
             </li>
             <li class="yoga-programs-item">
                 <picture class="yoga-programs-img">
-                    <source srcset="../img/yoga-programs/desktop/vynysia-yoga.png 1x, ../img/yoga-programs/desktop/vynysia-yoga2x.png 2x" media="(min-width: 1336px)" />
-                    <source srcset="../img/yoga-programs/tablet/vinyasa-yoga.png 1x, ../img/yoga-programs/tablet/vinyasa-yoga2x.png 2x" media="(min-width: 768px)" />
-                    <source srcset="../img/yoga-programs/mobile/vinuasa-flow.png 1x, ../img/yoga-programs/mobile/vinuasa-flow2x.png 2x" media="(max-width: 767px)" />
-                    <img class="yoga-programs-img" src="../img/yoga-programs/mobile/vinuasa-flow.png"
+                    <source srcset="/quantum-bananas/assets/vynysia-yoga-BejibMWb.png 1x, /quantum-bananas/assets/vynysia-yoga2x-iYDMG0H9.png 2x" media="(min-width: 1336px)" />
+                    <source srcset="/quantum-bananas/assets/vinyasa-yoga--mSenHRP.png 1x, /quantum-bananas/assets/vinyasa-yoga2x-CD59EC5u.png 2x" media="(min-width: 768px)" />
+                    <source srcset="../img/yoga-programs/mobile/vinuasa-flow.png 1x, /quantum-bananas/assets/vinuasa-flow2x-BAK8J0dD.png 2x" media="(max-width: 767px)" />
+                    <img class="yoga-programs-img" src="/quantum-bananas/assets/vinuasa-flow-OCejPabM.png"
                         alt="Yoga-programs" />
                 </picture>
                 <h3 class="yoga-programs-title">Vinyasa Flow: Energize Your Body and Mind</h3>
@@ -137,21 +150,21 @@
             </li>
             <li class="yoga-programs-item">
                 <picture>
-                    <source srcset="../img/yoga-programs/desktop/restorative-yoga.png 1x, ../img/yoga-programs/desktop/restorative-yoga2x.png 2x" media="(min-width: 1336px)" />
-                    <source srcset="../img/yoga-programs/tablet/restorative-yoga.png 1x, ../img/yoga-programs/tablet/restorative-yoga2x.png 2x" media="(min-width: 768px)" />
-                    <source srcset="../img/yoga-programs/mobile/restorative-yoga.png 1x, ../img/yoga-programs/mobile/restorative-yoga2x.png 2x" media="(max-width: 767px)" />
-                    <img class="yoga-programs-img" src="../img/yoga-programs/mobile/restorative-yoga.png"
+                    <source srcset="/quantum-bananas/assets/restorative-yoga-CS-gtOOf.png 1x, /quantum-bananas/assets/restorative-yoga2x-CvU79nQx.png 2x" media="(min-width: 1336px)" />
+                    <source srcset="/quantum-bananas/assets/restorative-yoga-NJzQ61G7.png 1x, /quantum-bananas/assets/restorative-yoga2x-BvJt9Egg.png 2x" media="(min-width: 768px)" />
+                    <source srcset="/quantum-bananas/assets/restorative-yoga-CVMUia-Z.png 1x, /quantum-bananas/assets/restorative-yoga2x-B2qmwuVk.png 2x" media="(max-width: 767px)" />
+                    <img class="yoga-programs-img" src="/quantum-bananas/assets/restorative-yoga-CVMUia-Z.png"
                         alt="Yoga-programs" />
                 </picture>
                 <h3 class="yoga-programs-title">Restorative Yoga: Deep Relaxation and Healing</h3>
                 <p class="yoga-programs-text">Unwind and rejuvenate with gentle poses and mindfulness.</p>
             </li>
         </ul>
-        <a class="yoga-programs-btn yoga-programs-btn-mob" href="">Join</a>
-        <a class="yoga-programs-btn yoga-programs-btn-main" href="">Join now</a>
+        <a class="yoga-programs-btn yoga-programs-btn-mob" href="#pricing">Join</a>
+        <a class="yoga-programs-btn yoga-programs-btn-main" href="#pricing">Join now</a>
     </div>
 </section>
-      <section class="team">
+      <section class="team" id="team">
   <div class="container">
     <div class="title">
       <p class="meet">Meet</p>
@@ -166,17 +179,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/liam-desk-DBqpyu6K.webp 1x, /quantum-bananas/assets/liam-desk@2x-CFZ9ayF6.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/liam-tabl-DHvim7ls.webp 1x, /quantum-bananas/assets/liam-tabl@2x-DELuFK68.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/liam-mob-DwXl7ykC.webp 1x, /quantum-bananas/assets/liam-mob@2x-COrNA2wx.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/liam-mob-DwXl7ykC.webp"
-            alt="team picture Liam Johnson"/>
+            alt="team picture Liam Johnson"
+          />
         </picture>
 
         <div class="team-box">
@@ -191,14 +208,14 @@
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.linkedin.com/" target="_blank">
                 <svg class="icon-fl" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.instagram.com/" target="_blank">
                 <svg class="icon" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-instagram"></use>
                 </svg>
@@ -212,17 +229,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/emma-desk-XLPj9l9a.webp 1x, /quantum-bananas/assets/emma-desk@2x-B8fRSsqX.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/emma-tabl-DnT2hgTg.webp 1x, /quantum-bananas/assets/emma-tabl@2x-B8pbD-X5.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/emma-mob-BUJIv0Tk.webp 1x, /quantum-bananas/assets/emma-mob@2x-D81SeKJx.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/emma-mob-BUJIv0Tk.webp"
-            alt="team picture Emma Stone"/>
+            alt="team picture Emma Stone"
+          />
         </picture>
 
         <div class="team-box">
@@ -236,7 +257,7 @@
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.linkedin.com/" target="_blank">
                 <svg class="icon-fl" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-linkedin"></use>
                 </svg>
@@ -250,17 +271,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/sophia-desk-B_BrDryJ.webp 1x, /quantum-bananas/assets/sophia-desk@2x-CwciBczu.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/sophia-tabl-Du0lApfW.webp 1x, /quantum-bananas/assets/sophia-tabl@2x-DByhckdZ.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/sophia-mob-CmY3Dspq.webp 1x, /quantum-bananas/assets/sophia-mob@2x-DZ6iJezj.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/sophia-mob-CmY3Dspq.webp"
-            alt="team picture Sophia Lee"/>
+            alt="team picture Sophia Lee"
+          />
         </picture>
 
         <div class="team-box">
@@ -274,7 +299,7 @@
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.instagram.com/" target="_blank">
                 <svg class="icon" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-instagram"></use>
                 </svg>
@@ -288,17 +313,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/noah-desk-DUcDKPMT.webp 1x, /quantum-bananas/assets/noah-desk@2x-BNil-sGk.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/noah-tabl-B1YBp9rv.webp 1x, /quantum-bananas/assets/noah-tabl@2x-C2xgJSu3.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/noah-mob-_tQyI1bM.webp 1x, /quantum-bananas/assets/noah-mob@2x-BYORXy0a.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/noah-mob-_tQyI1bM.webp"
-            alt="team picture Noah Brown"/>
+            alt="team picture Noah Brown"
+          />
         </picture>
 
         <div class="team-box">
@@ -306,13 +335,14 @@
             <h3 class="team-box-name">Noah Brown</h3>
             <p class="team-job-title">Yoga Therapist</p>
             <p class="team-about-instructor">
-              Noah focuses on therapeutic yoga to aid recovery and enhance well-being.
+              Noah focuses on therapeutic yoga to aid recovery and enhance
+              well-being.
             </p>
           </div>
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.linkedin.com/" target="_blank">
                 <svg class="icon-fl" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-linkedin"></use>
                 </svg>
@@ -326,17 +356,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/ava-desk-Bt_SVrz-.webp 1x, /quantum-bananas/assets/ava-desk@2x-DodCO9Js.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/ava-tabl-DprY0tun.webp 1x, /quantum-bananas/assets/ava-tabl@2x-U5g2CyOR.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/ava-mob-DmjEpoTm.webp 1x, /quantum-bananas/assets/ava-mob@2x-B_hV7jNw.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/ava-mob-DmjEpoTm.webp"
-            alt="team picture Ava Green"/>
+            alt="team picture Ava Green"
+          />
         </picture>
 
         <div class="team-box">
@@ -344,27 +378,28 @@
             <h3 class="team-box-name">Ava Green</h3>
             <p class="team-job-title">Fitness Trainer</p>
             <p class="team-about-instructor">
-              Ava integrates strength training with yoga to promote overall fitness.
+              Ava integrates strength training with yoga to promote overall
+              fitness.
             </p>
           </div>
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.facebook.com/" target="_blank">
                 <svg class="icon-fl icon-facebook" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.linkedin.com/" target="_blank">
                 <svg class="icon-fl" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.instagram.com/" target="_blank">
                 <svg class="icon" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-instagram"></use>
                 </svg>
@@ -378,17 +413,21 @@
         <picture>
           <source
             srcset="/quantum-bananas/assets/clark-desk-CrjskbM6.webp 1x, /quantum-bananas/assets/clark-desk@2x-BLdbN9dn.webp 2x"
-            media="(min-width: 1336px)"/>
+            media="(min-width: 1336px)"
+          />
           <source
             srcset="/quantum-bananas/assets/clark-tabl-DNhWIZuI.webp 1x, /quantum-bananas/assets/clark-tabl@2x-DH2BR9in.webp 2x"
-            media="(min-width: 736px)"/>
+            media="(min-width: 736px)"
+          />
           <source
             srcset="/quantum-bananas/assets/clark-mob-CsLQgzH8.webp 1x, /quantum-bananas/assets/clark-mob@2x-CG8hojV8.webp 2x"
-            media="(max-width: 767px)"/>
+            media="(max-width: 767px)"
+          />
           <img
             class="team-image"
             src="/quantum-bananas/assets/clark-mob-CsLQgzH8.webp"
-            alt="team picture Clark Thomas"/>
+            alt="team picture Clark Thomas"
+          />
         </picture>
 
         <div class="team-box">
@@ -403,14 +442,14 @@
 
           <ul class="social-icon-item">
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.facebook.com/" target="_blank">
                 <svg class="icon-fl icon-facebook" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social-link" href="" target="_blank">
+              <a class="social-link" href="https://www.instagram.com/" target="_blank">
                 <svg class="icon" width="24" height="24">
                   <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-instagram"></use>
                 </svg>
@@ -423,7 +462,7 @@
   </div>
 </section>
 
-      <section class="section-four">
+      <section class="section-four" id="gallery">
     <div class="container four-div">
         <h2 class="h-four">Breathe in the Space</h2>
         <p class="p-four">Step inside YogaBloom and feel the calm. Explore our serene studio and the peaceful moments our community shares during each session.</p>
@@ -431,92 +470,92 @@
             <li class="li-four">
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt1x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt1x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt1x1desk-BbgWfUvp.jpg 1x, /quantum-bananas/assets/chatgpt1x2desk-1jMysPuQ.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpt1x1top.jpg 1x, ../img/breath-in-the-space/chatgpt1x2top.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt1x1top-qD1dS6X3.jpg 1x, /quantum-bananas/assets/chatgpt1x2top-DoGHu_UZ.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt1x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt1x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt1x1tel-DyUs29Ud.jpg 1x, /quantum-bananas/assets/chatgpt1x2tel-D80FFG9z.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt1x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt1x1tel-DyUs29Ud.jpg" alt="yoga"/>
                 </picture>
             </li> 
             <li class="li-four"> 
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt2x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt2x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt2x1desk-CrOhT-Ds.jpg 1x, /quantum-bananas/assets/chatgpt2x2desk-COGXNULA.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpt2x1top.jpg 1x, ../img/breath-in-the-space/chatgpt2x2top.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt2x1top-DzVdbQ6a.jpg 1x, /quantum-bananas/assets/chatgpt2x2top-BG68xv8u.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt2x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt2x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt2x1tel-DCAxWgCf.jpg 1x, /quantum-bananas/assets/chatgpt2x2tel-DehDLgHz.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt2x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt2x1tel-DCAxWgCf.jpg" alt="yoga"/>
                 </picture>
             </li> 
             <li class="li-four"> 
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt3x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt3x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt3x1desk-C1he9Eb0.jpg 1x, /quantum-bananas/assets/chatgpt3x2desk-COaBZBsY.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpt3x1top.jpg 1x, ../img/breath-in-the-space/chatgpt3x2top.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt3x1top-DMHBQnjG.jpg 1x, /quantum-bananas/assets/chatgpt3x2top-BO-5ORTE.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt3x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt3x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt3x1tel-7FMFMn7X.jpg 1x, /quantum-bananas/assets/chatgpt3x2tel-2qS1yMDI.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt3x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt3x1tel-7FMFMn7X.jpg" alt="yoga"/>
                 </picture>
                 </picture>
             </li>
             <li class="li-four">
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt4x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt4x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt4x1desk-Cnjdt0ki.jpg 1x, /quantum-bananas/assets/chatgpt4x2desk-DK_X_lAc.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpt4x1top.jpg 1x, ../img/breath-in-the-space/chatgpt4x2top.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt4x1top-DRHy8JgZ.jpg 1x, /quantum-bananas/assets/chatgpt4x2top-BRyPKD7H.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt4x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt4x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt4x1tel-xZJlQjIb.jpg 1x, /quantum-bananas/assets/chatgpt4x2tel-Ci-G8rFw.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt4x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt4x1tel-xZJlQjIb.jpg" alt="yoga"/>
                 </picture>
             </li>
             <li class="li-four"> 
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt5x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt5x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt5x1desk-BYAdNIg5.jpg 1x, /quantum-bananas/assets/chatgpt5x2desk-6KBtYYNy.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpt5x1top.jpg 1x, ../img/breath-in-the-space/chatgpt5x2top.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt5x1top-BPJOx2Sc.jpg 1x, /quantum-bananas/assets/chatgpt5x2top-CNyXi8XF.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt5x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt5x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt5x1tel-CbJRsLtv.jpg 1x, /quantum-bananas/assets/chatgpt5x2tel-C1gpdMD2.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt5x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt5x1tel-CbJRsLtv.jpg" alt="yoga"/>
                 </picture>
             </li> 
             <li class="li-four">
                 <picture>
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt6x1desk.jpg 1x, ../img/breath-in-the-space/chatgpt6x2desk.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt6x1desk-DX1P_J8H.jpg 1x, /quantum-bananas/assets/chatgpt6x2desk-B1M88Ifq.jpg 2x"
                         media="(min-width: 1336px)" />
                     <source
-                        srcset="../img/breath-in-the-space/chatgpе6x1top.jpg 1x, ../img/breath-in-the-space/chatgpt6x2top.jpg 2x"
+                        srcset="/img/breath-in-the-space/chatgpе6x1top.jpg 1x, /quantum-bananas/assets/chatgpt6x2top-BXPop-cv.jpg 2x"
                         media="(min-width: 768px)"
                     />
                     <source 
-                        srcset="../img/breath-in-the-space/chatgpt6x1tel.jpg 1x, ../img/breath-in-the-space/chatgpt6x2tel.jpg 2x"
+                        srcset="/quantum-bananas/assets/chatgpt6x1tel-IUTtAz3j.jpg 1x, /quantum-bananas/assets/chatgpt6x2tel-BVFsQXsP.jpg 2x"
                         media="(max-width: 767px)" />
-                    <img src="../img/breath-in-the-space/chatgpt6x1tel.jpg" alt="yoga"/>
+                    <img src="/quantum-bananas/assets/chatgpt6x1tel-IUTtAz3j.jpg" alt="yoga"/>
                 </picture>
             </li> 
         </ul>
@@ -589,7 +628,7 @@
   </div>
 </section>
 
-      <section>
+      <section class="testimonals" id="testimonials">
   <div class="container testimonials-con">
     <h2 class="title-section">Testimonials</h2>
     <p class="p-test">What our happy clients say</p>
@@ -683,7 +722,7 @@
   </div>
 </section>
 
-      <section class="price" id="price-plan">
+      <section class="price" id="pricing">
     <div class="container container-price">
         <p class="price-descr">Affordable</p>
         <h2 class="price-title">Pricing Plans</h2>
@@ -762,7 +801,7 @@
                             </svg>
                             <p class="payment-descr">4 Individual Sessions</p>
                         </li>
-                        <li class="payment-item payment-item-onlymob">
+                        <li class="payment-item">
                             <svg class="payment-icon" width="24" height="24">
                                 <use href="/quantum-bananas/assets/icons-BDogNLbE.svg#icon-check"></use>
                             </svg>
