@@ -3,9 +3,66 @@
   justify-content: space-between;
   align-items: center;
 }
-.header-icon-menu-container {
+.burger-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
   border: none;
-  background-color: var(--color-hawkes-blue-lightest);
+  background: transparent;
+  padding: 0;
+}
+
+.burger-icon {
+  position: relative;
+  display: block;
+
+  width: 16px;
+  height: 2px;
+  background-color: var(--color-scheme-3-text);;
+  transition: background-color 250ms, transform 250ms;
+}
+
+.burger-icon::before,
+.burger-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 2px;
+  background-color: var(--color-scheme-3-text);;
+  transition: transform 250ms, top 250ms, width 250ms;
+}
+
+.burger-icon::before {
+  top: -5px;
+}
+
+.burger-icon::after {
+  top: 5px;
+}
+.burger-btn.is-open {
+  padding-left: 4px;
+}
+
+.burger-btn.is-open .burger-icon {
+  background-color: transparent;
+}
+
+.burger-btn.is-open .burger-icon::before {
+  top: 0;
+  transform: rotate(-45deg);
+  width: 12px;
+  height: 2px;
+}
+
+.burger-btn.is-open .burger-icon::after {
+  top: 0;
+  transform: rotate(45deg);
+  width: 12px;
+  height: 2px;
 }
 .header-nav {
   display: none;
@@ -15,6 +72,11 @@
   align-items: center;
   justify-content: center;
   fill: #0d0b0a;
+  transition: transform 250ms ease-in-out;
+}
+.header-icon-logo:hover,
+.header-icon-logo:focus {
+  transform: scale(1.02);
 }
 .header-link-button-container {
   padding-top: 15px;
@@ -22,7 +84,7 @@
 }
 .header-link-button {
   display: block;
-  border: 1px solid var(--color-hawkes-blue);
+  border: none;
   border-radius: 100px;
   padding: 4px 20px;
   background: var(--color-hawkes-blue);
@@ -37,7 +99,7 @@
   .header .container {
     justify-content: unset;
   }
-  .header-icon-menu-container {
+  .burger-btn {
     display: none;
   }
   .header-nav {
@@ -60,10 +122,13 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .header-nav-list li:hover {
-    transform: scale(1.1);
+  .header-nav-list li:hover, 
+     .header-nav-list li:focus {
+    transform: scale(1.01);
     transition: transform 0.3s ease-in-out;
   }
+
+   
   .current {
     position: relative;
     display: inline-block;
@@ -80,10 +145,16 @@
     height: 2px;
     background-color: var(--color-scheme-3-text);
   }
-  .header-link-button-container:hover {
+  .header-link-button-container:hover, .header-link-button-container:focus {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+     
   }
+    .header-link-button:hover,
+    .header-link-button:focus {
+      background: var(--opacity-neutral-darkest-5);
+
+    }
   .header-logo-container {
     margin-right: 509px;
   }

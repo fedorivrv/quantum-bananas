@@ -1,3 +1,7 @@
+.testimonals {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 .testimonials-div {
   border-radius: 24px;
   padding: 12px;
@@ -15,6 +19,7 @@
   line-height: 160%;
   text-align: center;
   color: var(--color-scheme-3-text);
+
 }
 
 .title-section {
@@ -25,6 +30,7 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: var(--color-scheme-4-text);
+  margin-bottom: 20px;
 }
 
 .testimonals-p {
@@ -74,6 +80,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1335px) {
+  .testimonals {
+    padding: 40px 0;
+
+  }
   .title-section {
     font-size: 40px;
     margin-bottom: 24px;
@@ -99,6 +109,10 @@
 }
 
 @media screen and (min-width: 1336px) {
+  .testimonals {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
   .testimonials-ul {
     display: flex;
     flex-direction: row;
