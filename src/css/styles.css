@@ -13,10 +13,10 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./burger-menu.css');
-@import url('./transform-life.css');
+@import url("./transform-life.css");
 @import url('./yoga-programs.css');
 @import url('./team.css');
-@import url('./breath-in-the-space.css');
+@import url("./breath-in-the-space.css");
 @import url('./yoga-helps.css');
 @import url('./testimonials.css');
 @import url('./price-plan.css');

@@ -90,7 +90,6 @@
   padding-bottom: 8px;
 }
 
-
 .payment-item:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -126,8 +125,7 @@
   border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   background: var(--color-hawkes-blue);
-  transition: border 250ms ease-in-out,
-    background 250ms ease-in-out;
+  transition: border 250ms ease-in-out, background 250ms ease-in-out;
 }
 
 .price-btn:hover,
@@ -147,13 +145,11 @@
   }
 
   .price-btn {
-    min-width: 100%
+    min-width: 100%;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1335px) {
- 
-
+@media screen and (min-width: 768px) and (max-width: 1335px) {
   .price-item:last-child .payment-list {
     margin-bottom: 0px;
   }
@@ -248,7 +244,6 @@
 }
 
 @media screen and (min-width: 1336px) {
- 
   .price {
     padding-top: 112px;
     padding-bottom: 112px;
