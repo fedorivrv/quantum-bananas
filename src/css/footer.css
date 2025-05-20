@@ -88,9 +88,6 @@
   
 }
 
-.footer-logo {
-  fill: var(---primary-color);
-}
 
 @media (min-width: 768px) {
   .footer-logo {
