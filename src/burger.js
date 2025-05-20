@@ -1,17 +1,29 @@
-export const menuIcon = document.getElementById('menu-icon');
-export const useElement = menuIcon.querySelector('use');
-export const mobileMenu = document.getElementById('mobileMenu');
+(() => {
+  const refs = {
+    toggleMenuBtn: document.querySelector('[data-menu-toggle]'),
+    menu: document.querySelector('[data-menu]'),
+    body: document.body,
+  };
 
-menuIcon.addEventListener('click', () => {
-  mobileMenu.classList.toggle('open');
-  document.body.classList.toggle('lock-scroll');
+  // Функція для закриття меню
+  const closeMenu = () => {
+    refs.menu.classList.remove('is-open');
+    refs.toggleMenuBtn.classList.remove('is-open');
+    refs.body.classList.remove('no-scroll');
+  };
 
-  
-  const currentIcon = useElement.getAttribute('href');
-  const isMenuOpen = currentIcon.includes('icon-menu');
+  // Перемикання меню по кнопці
+  refs.toggleMenuBtn.addEventListener('click', () => {
+    const isOpen = refs.menu.classList.toggle('is-open');
+    refs.toggleMenuBtn.classList.toggle('is-open');
+    refs.body.classList.toggle('no-scroll', isOpen);
+  });
 
-  useElement.setAttribute(
-    'href',
-    isMenuOpen ? '/img/icons.svg#icon-close' : '/img/icons.svg#icon-menu'
-  );
-});
+  // Закриття меню при кліку на будь-яке посилання в бургер-меню
+  const menuLinks = refs.menu.querySelectorAll('a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      closeMenu();
+    });
+  });
+})();

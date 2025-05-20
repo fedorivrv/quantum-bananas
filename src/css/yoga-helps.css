@@ -76,52 +76,56 @@
 }
 
 @media screen and (min-width: 768px) {
+
     .yoga-helps {
         background-color: var(--color-scheme-3-background);
         padding-top: 80px;
         padding-bottom: 40px;
     }
 
+
 .yoga-help-title {
     margin-bottom: 24px;
 }
 
+
     .yoga-help-text {
         font-size: 18px;
-}
+    }
 
-.yoga-help-tt {
-    margin-bottom: 40px;
-}
+    .yoga-help-tt {
+        margin-bottom: 40px;
+    }
 
 .about-yoga-list-cont {
     margin-bottom: 63px;
 }
 
-.about-yoga-list {
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 24px;
-    row-gap: 46.5px;
-    justify-content: center;
-    align-items: baseline;
-}
 
-.about-yoga-item{
-    max-width: 340px;
-}
+    .about-yoga-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 24px;
+        row-gap: 46.5px;
+        justify-content: center;
+        align-items: baseline;
+    }
 
-.about-yoga-element {
-    gap: 0;
-}
+    .about-yoga-item {
+        max-width: 340px;
+    }
 
-.about-yoga-list .about-yoga-item {
-    width: calc((100% - 24px) / 2);
-}
+    .about-yoga-element {
+        gap: 0;
+    }
 
-.mobile-text {
-    display: none;
-}
+    .about-yoga-list .about-yoga-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .mobile-text {
+        display: none;
+    }
 
 .nav-link {
     display: flex;
@@ -129,14 +133,15 @@
     align-items: center;
 }
 
-.nav-pricing {
+
+    .nav-pricing {
         width: auto;
         white-space: nowrap;
-}
+    }
 
-.join-text::after {
-    content: " now";
-}
+    .join-text::after {
+        content: " now";
+    }
 
 }
 
@@ -154,30 +159,29 @@
         margin-bottom: 24px;
     }
 
-.about-yoga-element-title {
-    font-size: 28px;
-    font-weight: 400;
-    margin-bottom: 24px;
-}
+    .about-yoga-element-title {
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
 
-.yoga-help-text {
-    font-size: 18px;
-}
+    .yoga-help-text {
+        font-size: 18px;
+    }
 
-.about-yoga-list {
-    flex-wrap: nowrap;
-    gap: 24px;
-    justify-content: center;
-    align-items: flex-start;
-}
+    .about-yoga-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
-.about-yoga-list-cont {
-    padding-bottom: 0;
-}
+    .about-yoga-list-cont {
+        padding-bottom: 0;
+    }
 
-.about-yoga-item {
-    max-width: 310px;
-}
+    .about-yoga-item {
+        max-width: 310px;
+    }
 
 }
-

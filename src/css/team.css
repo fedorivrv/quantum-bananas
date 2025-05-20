@@ -47,7 +47,7 @@
 }
 .team-name-list {
     background: var(--color-scheme-3-background);
-    margin-bottom: 48px;
+
     width: 100%;
     max-width: none;
 }
@@ -61,8 +61,11 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 1.6;
-    padding-top: 20px;
+
     margin-bottom: 10px;
+}
+.team-image {
+    margin-bottom: 20px;
 }
 .team-job-title {
     font-weight: 400;
@@ -94,6 +97,7 @@
     stroke-width: 2;
     transform: scale(1.25);
 }
+
 .icon-fl {
     fill: var(--color-scheme-4-text);
 }

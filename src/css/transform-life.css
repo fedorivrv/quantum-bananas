@@ -8,7 +8,7 @@
 .banner {
   min-width: 320px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  border: 1px solid #000;
+
   margin-bottom: 48px;
   max-width: 375px;
   margin-left: auto;
@@ -54,12 +54,10 @@
 }
 
 .button-join {
-  border: 1px solid var(--color-hawkes-blue);
   background: var(--color-hawkes-blue);
 }
 
 .button-learn {
-  border: 1px solid rgba(255, 255, 255, 0);
   background: rgba(13, 11, 10, 0.05);
 }
 
@@ -107,7 +105,7 @@
 
 @media screen and (min-width: 1336px) {
   .main-banner {
-    padding-bottom: 48px;
+    padding-bottom: 80px;
   }
   .banner {
     max-width: 1336px;
@@ -130,6 +128,7 @@
     margin-bottom: 0;
   }
   .main-text-button {
+    padding-top: 8px;
     display: flex;
     flex-direction: column;
     gap: 32px;
