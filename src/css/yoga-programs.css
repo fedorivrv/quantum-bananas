@@ -49,9 +49,23 @@
 }
 
 .yoga-programs-img {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
-
+@media screen and (min-width: 767px) and (max-width: 1335px) {
+  .yoga-programs-img-main {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .yoga-programs-img-tablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 1335px) {
+  .yoga-programs-img-tablet {
+    display: none;
+  }
+}
 .yoga-programs-title {
   font-family: var(--second-family);
   font-weight: 400;
