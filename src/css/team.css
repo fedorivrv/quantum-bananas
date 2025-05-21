@@ -149,8 +149,10 @@
   .team-card {
     gap: 64px 24px;
   }
-  .social-link:hover {
+  .social-link:hover, 
+  .social-link:focus {
     transform: scale(1.1);
-    transition: transform 250ms ease-in-out;
+    fill: var(--color-neutral-dark);
+    transition: transform 250ms ease-in-out, fill 250ms ease-in-out;
   }
 }

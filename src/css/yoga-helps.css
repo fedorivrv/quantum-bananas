@@ -68,7 +68,6 @@
 .nav-pricing:hover,
 .nav-pricing:focus {
   background: var(--opacity-neutral-darkest-5);
-  border: 1px solid var(--color-scheme-3-text);
 }
 
 .join-text::after {

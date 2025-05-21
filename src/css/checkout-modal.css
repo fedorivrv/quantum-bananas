@@ -142,7 +142,6 @@
 }
 
 .modal-btn {
-  border: 1px solid var(--color-hawkes-blue);
   border-radius: 100px;
   padding: 10px 24px;
   height: 46px;
@@ -171,6 +170,7 @@
     padding-bottom: 64px;
     width: 704px;
     height: 573px;
+    border-radius: 16px;
   }
 
   .modal-title {

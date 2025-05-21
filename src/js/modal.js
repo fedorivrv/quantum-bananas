@@ -2,25 +2,30 @@
   const refs = {
     openButtons: document.querySelectorAll('.price-btn'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
+    modalOverlay: document.querySelector('[data-modal]'),
     modalWrappers: document.querySelectorAll('.modal-wrapper'),
   };
 
   refs.openButtons.forEach((btn, index) => {
     btn.addEventListener('click', () => {
-      refs.modal.classList.add('is-open');
+      refs.modalOverlay.classList.add('is-open');
       refs.modalWrappers.forEach((wrapper, i) => {
-        if (i === index) {
-          wrapper.classList.remove('none');
-        } else {
-          wrapper.classList.add('none');
-        }
+        wrapper.classList.toggle('none', i !== index);
       });
     });
   });
 
+  // Закриття по кнопці
   refs.closeModalBtn.addEventListener('click', () => {
-    refs.modal.classList.remove('is-open');
+    refs.modalOverlay.classList.remove('is-open');
+  });
+
+  // Закриття по кліку на фон
+  refs.modalOverlay.addEventListener('click', (event) => {
+    // Якщо клік був саме по фону, а не по формі (div.modal)
+    if (event.target === refs.modalOverlay) {
+      refs.modalOverlay.classList.remove('is-open');
+    }
   });
 })();
 
