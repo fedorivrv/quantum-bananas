@@ -51,7 +51,7 @@
 .yoga-programs-img {
   margin-bottom: 25px;
 }
-@media screen and (min-width: 767px) and (max-width: 1335px) {
+@media screen and (min-width: 768px) and (max-width: 1335px) {
   .yoga-programs-img-main {
     display: none;
   }
@@ -61,7 +61,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1335px) {
+@media screen and (min-width: 1336px) {
   .yoga-programs-img-tablet {
     display: none;
   }
