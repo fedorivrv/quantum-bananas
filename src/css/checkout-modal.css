@@ -171,6 +171,7 @@
     padding-bottom: 64px;
     width: 704px;
     height: 573px;
+    border-radius: 16px;
   }
 
   .modal-title {
