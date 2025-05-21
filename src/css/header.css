@@ -76,7 +76,7 @@
 }
 .header-icon-logo:hover,
 .header-icon-logo:focus {
-  transform: scale(1.02);
+  transform: scale(1.1);
 }
 .header-link-button-container {
   padding-top: 15px;
@@ -124,8 +124,8 @@
   }
   .header-nav-list li:hover,
   .header-nav-list li:focus {
-    transform: scale(1.01);
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
   }
 
   .current {
@@ -146,12 +146,13 @@
   }
   .header-link-button-container:hover,
   .header-link-button-container:focus {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.01);
+    transition: transform 0.3s ease-in;
   }
   .header-link-button:hover,
   .header-link-button:focus {
     background: var(--opacity-neutral-darkest-5);
+    border: 1px solid var(--color-scheme-3-text);
   }
   .header-logo-container {
     margin-right: 509px;

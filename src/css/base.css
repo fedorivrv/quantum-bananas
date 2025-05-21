@@ -68,7 +68,9 @@
   --second-family: "Cabin", sans-serif;
   --third-family: "Roboto", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--color-scheme-3-background);
 }

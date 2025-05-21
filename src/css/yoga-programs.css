@@ -38,7 +38,7 @@
   margin-bottom: 48px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .yoga-programs-item:not(:last-child) {
     margin-bottom: 48px;
   }
@@ -86,6 +86,7 @@
 .yoga-programs-btn:hover,
 .yoga-programs-btn:focus {
   background: var(--opacity-neutral-darkest-5);
+  border: 1px solid var(--color-scheme-3-text);
 }
 
 @media screen and (max-width: 374px) {
@@ -110,7 +111,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1335px) {
+@media screen and (min-width: 768px) and (max-width: 1335px) {
   .yoga-programs-item:not(:last-child) {
     width: calc((100% - 24px) / 2);
   }

@@ -1,153 +1,156 @@
 .team {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 48px;
-    box-sizing: border-box; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+  box-sizing: border-box;
 
-    padding-top: 64px;
-    padding-bottom: 64px;
-    width: 100%;
-    background: var(--color-scheme-3-background);
-    font-family: var(--second-family);
-    color: var(--color-scheme-4-text);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 100%;
+  background: var(--color-scheme-3-background);
+  font-family: var(--second-family);
+  color: var(--color-scheme-4-text);
 }
 
 .title {
-    margin-bottom: 48px;
-    text-align: center;
-    display: block;
+  margin-bottom: 48px;
+  text-align: center;
+  display: block;
 }
 .meet {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 .our-team {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
 }
 .team-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .team-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    gap: 48px;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 48px;
+  list-style: none;
 }
 .team-name-list {
-    background: var(--color-scheme-3-background);
+  background: var(--color-scheme-3-background);
 
-    width: 100%;
-    max-width: none;
+  width: 100%;
+  max-width: none;
 }
 .team-box {
-    text-align: center;
+  text-align: center;
 }
 .team-name-job {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .team-box-name {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.6;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-image {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .team-job-title {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
 }
 .team-about-instructor {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .social-icon-item {
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-direction: row;
-    gap: 14px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 14px;
 }
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
 
 .icon-facebook {
-    transform: scale(1.25);
+  transform: scale(1.25);
 }
 
-@media screen and (min-width: 768px ) {
-    .team {
-        padding-top: 40px;
-    }
-    .meet {
-        margin-bottom: 16px;
-    }
-    .our-team {
-        margin-bottom: 24px;
-    }
-    .team-description {
-        text-align: center;
-    }
-    .title {
-        margin-bottom: 40px;
-    }
-    .team-card {
-        gap: 24px;
-    }
-    .team-name-list {
-        width: calc((100% - 24px) / 2);
-    }
-    .team-image {
-        max-width: 340px;
-        height: 395px;
-        margin-bottom: 24px;
-    }
-    .team-job-title {
-        margin-bottom: 16px;
-    }
-    .team-name-job {
-        margin-bottom: 24px;
-    }
+@media screen and (min-width: 768px) {
+  .team {
+    padding-top: 40px;
+  }
+  .meet {
+    margin-bottom: 16px;
+  }
+  .our-team {
+    margin-bottom: 24px;
+  }
+  .team-description {
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 40px;
+  }
+  .team-card {
+    gap: 24px;
+  }
+  .team-name-list {
+    width: calc((100% - 24px) / 2);
+  }
+  .team-image {
+    max-width: 340px;
+    height: 395px;
+    margin-bottom: 24px;
+  }
+  .team-job-title {
+    margin-bottom: 16px;
+  }
+  .team-name-job {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 1336px) {
-    .team {
-        padding-top: 112px;
-        padding-bottom: 112px;
-    }
-    .team-card {
-        max-width: 1312px;
-    }
-    .team-image {
-        max-width: 421px;
-        height: 398px;
-    }
-    .team-name-list {
-        width: calc((100% - 48px) / 3);
-    }
-    .team-card {
-        gap: 64px 24px;
-    }
-}    
+  .team {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .team-card {
+    max-width: 1312px;
+  }
+  .team-image {
+    max-width: 421px;
+    height: 398px;
+  }
+  .team-name-list {
+    width: calc((100% - 48px) / 3);
+  }
+  .team-card {
+    gap: 64px 24px;
+  }
+  .social-link:hover {
+    transform: scale(1.1);
+    transition: transform 250ms ease-in-out;
+  }
+}
