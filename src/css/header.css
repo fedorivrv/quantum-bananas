@@ -93,7 +93,6 @@
   font-size: 16px;
   line-height: 160%;
   color: var(--color-neutral-darkest);
-  border: 1px solid var(--color-hawkes-blue);
 }
 
 @media screen and (min-width: 1336px) {

@@ -122,7 +122,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--color-hawkes-blue);
+  /* border: 1px solid var(--color-hawkes-blue); */
+  border: none;
   border-radius: 100px;
   background: var(--color-hawkes-blue);
   transition: border 250ms ease-in-out, background 250ms ease-in-out;

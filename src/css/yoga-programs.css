@@ -80,7 +80,6 @@
   width: 343px;
   height: 46px;
   background: var(--color-hawkes-blue);
-  border: 1px solid var(--color-hawkes-blue);
   transition: background 250ms ease-in-out;
 }
 
