@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/quantum-bananas/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/quantum-bananas/assets/index-C5x36e2H.css">
+    <link rel="stylesheet" crossorigin href="/quantum-bananas/assets/index-PALmNLIh.css">
   </head>
   <body>
     <header class="header">
@@ -77,47 +77,37 @@
 
   <div class="banner">
     <picture>
-      <source
-        srcset="/quantum-bananas/assets/yoga-DpWgqTq-.webp 1x, /quantum-bananas/assets/yoga-@2x-BG9iTCwo.webp 2x"
-        media="(min-width: 1336px)"
-      />
-      <source
-        srcset="/quantum-bananas/assets/yoga-tab-DlGWc6YW.webp 1x, /quantum-bananas/assets/yoga-tab-@2x-C-b30Iaf.webp 2x"
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="/quantum-bananas/assets/yoga-mob-I5MjswFM.webp 1x, /quantum-bananas/assets/yoga-mob-@2x-DV7JyPfB.webp 2x"
-        media="(max-width: 767px)"
-      />
-      <img
-        src="/quantum-bananas/assets/yoga-mob-I5MjswFM.webp"
-        alt="yoga"
-      />
+      <source srcset="/quantum-bananas/assets/yoga-DpWgqTq-.webp 1x, /quantum-bananas/assets/yoga-@2x-BG9iTCwo.webp 2x"
+        media="(min-width: 1336px)" />
+      <source srcset="/quantum-bananas/assets/yoga-tab-DlGWc6YW.webp 1x, /quantum-bananas/assets/yoga-tab-@2x-C-b30Iaf.webp 2x"
+        media="(min-width: 768px)" />
+      <source srcset="/quantum-bananas/assets/yoga-mob-I5MjswFM.webp 1x, /quantum-bananas/assets/yoga-mob-@2x-DV7JyPfB.webp 2x"
+        media="(max-width: 767px)" />
+      <img src="/quantum-bananas/assets/yoga-mob-I5MjswFM.webp" alt="yoga" />
     </picture>
   </div>
-  
-      <div class="container banner-part">
-        <h1 class="main-banner-title">Transform Your Life with Our Yoga Clases</h1>
-        <div class="main-text-button">
-          <p class="main-banner-text">
-            Discover the harmony of mind and body through our expertly designed yoga programs. Join a community
-            dedicated to
-            wellness and personal growth.
-          </p>
-          <div class="main-button-list">
-            <ul class="button-list">
-              <li class="button-box">
-                <a href="#pricing" class="button-join">Join</a>
-              </li>
-              <li class="button-box"><a href="#gallery" class="button-learn">Learn More</a></li>
-            </ul>
-          </div>
-        </div>
 
+  <div class="container banner-part">
+    <h1 class="main-banner-title">Transform Your Life with Our Yoga Clases</h1>
+    <div class="main-text-button">
+      <p class="main-banner-text">
+        Discover the harmony of mind and body through our expertly designed yoga programs. Join a community
+        dedicated to
+        wellness and personal growth.
+      </p>
+
+      <ul class="button-list">
+        <li class="button-box">
+          <a href="#pricing" class="button-join">Join</a>
+        </li>
+        <li class="button-box"><a href="#gallery" class="button-learn">Learn More</a></li>
+      </ul>
     </div>
-  
-</section>
 
+
+  </div>
+
+</section>
       <section class="yoga-programs" id="yoga-programs">
     <div class="container yoga-programs-container">
         <p class="yoga-programs-desc">Explore</p>
@@ -935,7 +925,7 @@
     <button class="modal-close" type="button" data-modal-close>
       <svg class="modal-close-icon" width="14" height="14">
         <use href="/quantum-bananas/assets/icons-DKd6TmLu.svg#icon-close"></use>
-        </svg>
+      </svg>
     </button>
 
     <h2 class="modal-title">Join Now!</h2>
@@ -955,28 +945,30 @@
       <div class="modal-item">
         <label for="user-name" class="modal-label">Your Name</label>
         <div class="modal-block">
-          <input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Liam">
+          <input class="modal-input" type="text" name="user-name" id="user-name" placeholder="Liam" required
+            pattern="^[A-Za-z\s'-]{2,40}$">
         </div>
       </div>
       <div class="modal-form-wrapper">
         <div class="modal-item">
           <label for="email" class="modal-label">Email</label>
           <div class="modal-block">
-            <input class="modal-input" type="email" name="email" id="email" placeholder="hello@yogabloom.com">
+            <input class="modal-input" type="email" name="email" id="email" placeholder="hello@yogabloom.com" required
+              pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$">
           </div>
+        </div>
+        <div class="modal-item">
+          <label for="phone" class="modal-label">Phone number</label>
+          <div class="modal-block">
+            <input class="modal-input" type="tel" name="phone" id="phone" placeholder="+380 (95) 123 12 12" required
+              pattern="\+?[0-9\s\-\(\)]+">
           </div>
-          <div class="modal-item">
-            <label for="phone" class="modal-label">Phone number</label>
-            <div class="modal-block">
-              <input class="modal-input" type="tel" name="phone" id="phone" placeholder="+380 (95) 123 12 12">
-            </div>
-            </div>
+        </div>
       </div>
       <button type="submit" class="modal-btn price-btn">Go to checkout</button>
     </form>
   </div>
-</div>
-    
+</div>    
 
   </body>
 </html>
