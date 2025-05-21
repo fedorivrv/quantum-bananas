@@ -267,11 +267,16 @@
 .footer-link:hover,
 .footer-link:focus,
 .footer-social-link:hover,
-.footer-social-link:focus {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
+.footer-social-link:focus{
+  transition: color 0.3s ease-in-out;
+  color: var(--color-neutral);
 }
 
+.footer-social-link:hover .footer-social-img,
+.footer-social-link:focus .footer-social-img {
+  transition: fill 0.3s ease-in-out;
+  fill: var(--color-neutral-dark);
+}
 .footer-social-link {
   display: flex;
   font-size: 14px;
