@@ -137,8 +137,9 @@
   background-color: rgba(13, 11, 10, 0.05);
   outline: none;
 }
-.input-mail:focus {
-  border: 1px solid var(--color-scheme-3-text);
+.input-mail:focus,
+.input-mail:hover {
+  border: 1px solid var(--opacity-neutral-darkest-60);
 }
 
 @media (min-width: 768px) {
@@ -164,13 +165,14 @@
   font-size: 16px;
   line-height: 160%;
   color: var(--color-neutral-darkest);
+  background: var(--opacity-neutral-darkest-5);
   transition: border 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 .submit-mail:hover,
 .submit-mail:focus {
-  background-color: #c2d9fc;
-  border: 1px solid var(--color-scheme-3-text);
+  background-color: transparent;
+  border: 1px solid var(--opacity-neutral-darkest-5);
 }
 
 @media (min-width: 768px) {

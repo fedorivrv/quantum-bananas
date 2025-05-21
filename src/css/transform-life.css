@@ -60,20 +60,25 @@
 
 .button-join {
   background: var(--color-hawkes-blue);
+  border: 1px solid var(--color-hawkes-blue);
 }
 
 .button-learn {
-  background: rgba(13, 11, 10, 0.05);
+  border: 1px solid var(--opacity-transparent);
+  
+  background: var(--opacity-neutral-darkest-5);
 }
 
 .button-join:hover,
 .button-join:focus,
 .button-learn:hover,
-.button-learn:focus,
 .button-learn:hover {
   background-color: var(--pressed-state);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid var(--color-scheme-3-text);
+}
+.button-learn:hover,
+.button-learn:hover {
+  border: 1px solid var(--opacity-neutral-darkest-5);
 }
 
 @media screen and (min-width: 768px) {

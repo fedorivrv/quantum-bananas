@@ -18,7 +18,6 @@
 .burger-icon {
   position: relative;
   display: block;
-
   width: 16px;
   height: 2px;
   background-color: var(--color-scheme-3-text);
@@ -93,6 +92,7 @@
   font-size: 16px;
   line-height: 160%;
   color: var(--color-neutral-darkest);
+  border: 1px solid var(--color-hawkes-blue);
 }
 
 @media screen and (min-width: 1336px) {
@@ -152,7 +152,6 @@
   .header-link-button:hover,
   .header-link-button:focus {
     background: var(--opacity-neutral-darkest-5);
-    border: 1px solid var(--color-scheme-3-text);
   }
   .header-logo-container {
     margin-right: 509px;

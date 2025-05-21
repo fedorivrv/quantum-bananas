@@ -80,13 +80,13 @@
   width: 343px;
   height: 46px;
   background: var(--color-hawkes-blue);
+  border: 1px solid var(--color-hawkes-blue);
   transition: background 250ms ease-in-out;
 }
 
 .yoga-programs-btn:hover,
 .yoga-programs-btn:focus {
   background: var(--opacity-neutral-darkest-5);
-  border: 1px solid var(--color-scheme-3-text);
 }
 
 @media screen and (max-width: 374px) {
