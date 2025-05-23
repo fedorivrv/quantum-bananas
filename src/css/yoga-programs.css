@@ -179,6 +179,12 @@
   .yoga-programs-item {
     width: calc((100% - 48px) / 3);
   }
+    .yoga-programs-item:hover {
+      border-radius: 16px;
+      transition: box-shadow 250ms ease-in-out;
+ box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+    
 
   .yoga-programs-img {
     margin-bottom: 32px;

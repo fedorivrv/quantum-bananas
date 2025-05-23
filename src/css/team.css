@@ -1,17 +1,6 @@
 .team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 48px;
-  box-sizing: border-box;
-
   padding-top: 64px;
   padding-bottom: 64px;
-  width: 100%;
-  background: var(--color-scheme-3-background);
-  font-family: var(--second-family);
-  color: var(--color-scheme-4-text);
 }
 
 .title {
@@ -41,15 +30,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
   gap: 48px;
   list-style: none;
 }
 .team-name-list {
   background: var(--color-scheme-3-background);
-
-  width: 100%;
-  max-width: none;
+}
+.team-name-list:hover {
+  border-radius: 16px;
+  transition: box-shadow 250ms ease-in-out;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 .team-box {
   text-align: center;
@@ -61,7 +51,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 1.6;
-
   margin-bottom: 10px;
 }
 .team-image {
@@ -119,8 +108,7 @@
     width: calc((100% - 24px) / 2);
   }
   .team-image {
-    max-width: 340px;
-    height: 395px;
+
     margin-bottom: 24px;
   }
   .team-job-title {
@@ -136,13 +124,7 @@
     padding-top: 112px;
     padding-bottom: 112px;
   }
-  .team-card {
-    max-width: 1312px;
-  }
-  .team-image {
-    max-width: 421px;
-    height: 398px;
-  }
+ 
   .team-name-list {
     width: calc((100% - 48px) / 3);
   }

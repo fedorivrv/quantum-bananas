@@ -76,7 +76,7 @@
 .header-icon-logo:hover,
 .header-icon-logo:focus {
   transform: scale(1.01);
-  fill: var(--color-neutral-dark);
+  fill: var(--color-neutral);
 }
 .header-link-button-container {
   padding-top: 15px;

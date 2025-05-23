@@ -10,25 +10,29 @@
 
     <ul class="team-card">
       <li class="team-name-list">
+     <!-- <img src="../img/team/desctop/png/liam.png" alt=""> -->
         <picture>
-          <source
-            srcset="/img/team/liam-desk.webp 1x, /img/team/liam-desk@2x.webp 2x"
-            media="(min-width: 1336px)"
-          />
-          <source
-            srcset="/img/team/liam-tabl.webp 1x, /img/team/liam-tabl@2x.webp 2x"
-            media="(min-width: 736px)"
-          />
-          <source
-            srcset="/img/team/liam-mob.webp 1x, /img/team/liam-mob@2x.webp 2x"
-            media="(max-width: 767px)"
-          />
-          <img
-            class="team-image"
-            src="/img/team/liam-mob.webp"
-            alt="team picture Liam Johnson"
-          />
-        </picture>
+          <!-- Десктоп -->
+          <source srcset="/img/team/desctop/webp/liam.webp 1x, /img/team/desctop/webp/liam2x.webp 2x" media="(min-width: 1336px)"
+            type="image/webp" />
+          <source srcset="/img/team/desctop/png/liam.png 1x, /img/team/desctop/png/liam2x.png 2x" media="(min-width: 1336px)"
+            type="image/png" />
+        
+          <!-- Планшет -->
+          <source srcset="/img/team/tablet/webp/liam.webp 1x, /img/team/tablet/webp/liam2x.webp 2x" media="(min-width: 736px)"
+            type="image/webp" />
+          <source srcset="/img/team/tablet/png/liam.png 1x, /img/team/tablet/png/liam2x.png 2x" media="(min-width: 736px)"
+            type="image/png" />
+        
+          <!-- Мобільний -->
+          <source srcset="/img/team/mobile/webp/Liam.webp 1x, /img/team/mobile/webp/liam2x.webp 2x" media="(max-width: 735px)"
+            type="image/webp" />
+          <source srcset="/img/team/mobile/png/Liam.png 1x, /img/team/mobile/png/liam2x.png 2x" media="(max-width: 735px)"
+            type="image/png" />
+        
+          <!-- Фолбек: якщо нічого не підійшло -->
+          <img class="team-image" src="/img/team/mobile/png/Liam.png " alt="team picture Liam Johnson" />
+          </picture>
 
         <div class="team-box">
           <div class="team-name-job">
