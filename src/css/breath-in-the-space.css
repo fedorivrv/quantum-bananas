@@ -31,15 +31,15 @@
 }
 
 .li-four {
-  flex: 0 1 calc(50% - 12px); /* мобілка + планшет — два в ряд */
+  width: calc(50% - 12px); 
 }
-
+/* 
 .li-four img {
     width: 100%;
     height: 155px;
     border-radius: 16px;
     object-fit: cover;
-}
+} */
 
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -78,9 +78,9 @@
         margin-right: auto;
     }
 
-    .li-four img {
+    /* .li-four img {
         height: 290px;
-    }
+    } */
 }
 
 @media screen and (min-width:1336px) {
@@ -95,7 +95,7 @@
     }
 
     
-    .li-four img {
+    /* .li-four img {
         height: 448px;
-    }
+    } */
 }
