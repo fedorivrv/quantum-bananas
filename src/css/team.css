@@ -122,14 +122,15 @@
 @media screen and (min-width: 1336px) {
   .team {
     padding-top: 112px;
-    padding-bottom: 112px;
+    padding-bottom: 92px;
   }
  
   .team-name-list {
     width: calc((100% - 48px) / 3);
+    padding-bottom: 20px;
   }
   .team-card {
-    gap: 64px 24px;
+    gap: 44px 24px;
   }
   .social-link:hover, 
   .social-link:focus {
