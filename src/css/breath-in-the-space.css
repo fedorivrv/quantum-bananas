@@ -9,7 +9,6 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #0d0b0a;
-
     margin-bottom: 20px;
 }
 
@@ -19,7 +18,6 @@
     line-height: 1.6;
     text-align: center;
     color: #0d0b0a;
-
     margin-bottom: 48px;
 }
 
@@ -33,13 +31,7 @@
 .li-four {
   width: calc(50% - 12px); 
 }
-/* 
-.li-four img {
-    width: 100%;
-    height: 155px;
-    border-radius: 16px;
-    object-fit: cover;
-} */
+
 
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -78,9 +70,6 @@
         margin-right: auto;
     }
 
-    /* .li-four img {
-        height: 290px;
-    } */
 }
 
 @media screen and (min-width:1336px) {
@@ -94,8 +83,7 @@
         font-weight: 500;
     }
 
-    
-    /* .li-four img {
-        height: 448px;
-    } */
-}
+         .li-four {
+             width: calc((100% - 48px) / 3);
+         }
+        }
