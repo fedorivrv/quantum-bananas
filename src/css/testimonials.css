@@ -7,10 +7,14 @@
   padding: 12px;
   background-color: var(--color-hawkes-blue-lighter);
 }
-
+.testimonials-div:hover {
+  transition: box-shadow 250ms ease-in-out;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
 .testimonials-li {
   align-content: center;
 }
+
 
 .testimonals-title {
   font-family: var(--font-family);

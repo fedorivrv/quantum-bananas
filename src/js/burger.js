@@ -3,6 +3,7 @@
     toggleMenuBtn: document.querySelector('[data-menu-toggle]'),
     menu: document.querySelector('[data-menu]'),
     body: document.body,
+    joinBtn: document.querySelector('.header-link-button'),
   };
 
   // Функція для закриття меню
@@ -32,5 +33,12 @@
     link.addEventListener('click', () => {
       closeMenu();
     });
+  });
+
+  // Закриття меню при кліку на кнопку Join у хедері
+  refs.joinBtn.addEventListener('click', () => {
+    if (refs.menu.classList.contains('is-open')) {
+      closeMenu();
+    }
   });
 })();

@@ -62,12 +62,13 @@
   width: 100%;
   height: 46px;
   background-color: var(--color-hawkes-blue);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .nav-pricing:hover,
 .nav-pricing:focus {
   background: var(--opacity-neutral-darkest-5);
+
 }
 
 .join-text::after {
@@ -143,8 +144,26 @@
     padding-top: 112px;
     padding-bottom: 112px;
   }
+  .yoga-help-box {
+    padding-left: 2px;
+    padding-right: 2px;
+    /* max-width: 1332px; */
+  }
+    .yoga-help-tt {
+      margin-bottom: 30px;
+    }
+    .about-yoga-element {
+      padding: 10px;
+    }
+    .about-yoga-element:hover {
+      padding: 10px;
+      border-radius: 16px;
+      transform: scale(1.02);
+      transition: box-shadow 250ms ease-in-out,
+        transform 250ms ease-in-out;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05); }
   .about-yoga-list-cont {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .yoga-help-title {
@@ -164,16 +183,12 @@
 
   .about-yoga-list {
     flex-wrap: nowrap;
-    gap: 24px;
+    gap: 4px;
     justify-content: center;
     align-items: flex-start;
   }
-
+   
   .about-yoga-list-cont {
     padding-bottom: 0;
-  }
-
-  .about-yoga-item {
-    max-width: 310px;
   }
 }
